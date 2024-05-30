@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Sikeres betöltés :D
-</body>
+<html lang="hu" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Rajongói fordítások">
+        <meta name="keywords" content="Fansub, RWBY">
+        <meta name="author" content="CsontiXD">
+        <title>CsontiXD | Főoldal</title>
+        <!-- Formázások fájlainak behívása -->
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- Logo -->
+        <link rel="icon" type="image/x-icon" href="img/YourAnimeList_Logo2.png">
+        <!-- AJAX -->
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <div id="content"></div>
+        </main>
+        <footer></footer>
+    </body>
+    <script>
+        console.log("Érzékelem a js-t");
+        $(function(){
+            var $content = $("#content");
+            console.log("Érzékelem a feladatot");
+            if ($content.length) {
+                $content.load("linkek.html");
+                console.log("Sikeres");
+            }
+        });
+    </script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 </html>
+
+<!-- AJAX -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<!-- ??? -->

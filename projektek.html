@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="hu" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Rajongói fordítások">
+        <meta name="keywords" content="Fansub">
+        <meta name="author" content="CsontiXD">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="img/YourAnimeList_Logo2.png">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <div id="content"></div>
+
+        <title>CsontiXD | Főoldal</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark hatternav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.php" style="padding: 8px 0 !important;"><img src="img/YourAnimeList_title2.png" title="YourAnimeList" alt="Logo" class="d-block"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="statisztika.php"><i class="fa-solid fa-house"></i> Főoldal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="hirfolyam.php"><i class="fa-solid fa-newspaper"></i> Hírfolyam</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-film"></i> Projektek
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="projektek.html?allapot=befejezett"><i class="fa-solid fa-check"></i> Befejezett</a></li>
+                                    <li><a class="dropdown-item" href="projektek.html?allapot=futo"><i class="fa-solid fa-hourglass-half"></i> Futó</a></li>
+                                    <li><a class="dropdown-item" href="projektek.html?allapot=felfuggesztett"><i class="fa-solid fa-xmark"></i> Felfüggesztett</a></li>
+                                    <li><a class="dropdown-item" href="projektek.html?allapot=tervben"><i class="fa-solid fa-paperclip"></i> Tervben</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="modositas.php"><i class="fa-solid fa-sliders"></i> Állapotjelző</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="lista.php"><i class="fa-solid fa-user"></i> Elérhetőségek</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+
+            <div class="container h-50 text-light my-5" id="httr">
+                <div class="p-5 text-center"><hr><h1 class="w-100 py-3">Projektek</h1><hr></div>
+            </div>
+
+            <div class="d-none" id="semmi">
+                <div class="container text-center">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="projektek.html?allapot=befejezett">
+                            Befejezett
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="projektek.html?allapot=futo">
+                            Futó
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="projektek.html?allapot=felfuggesztett">
+                            Felfüggesztett
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="projektek.html?allapot=tervben">
+                            Tervben
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="d-none" id="befejezett">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <p><a href="projektek.html">Vissza</a></p>
+                            <img src="img/menhera_chan-waiting.gif" alt="Hiba a kép betöltésekor">
+                            <h3 class="text-center">Sajnos nincsen ilyen projekt</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-none" id="futo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="projektek.html">Vissza</a>
+                            futo
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-none" id="felfuggesztett">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="projektek.html">Vissza</a>
+                            felfuggesztett
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-none" id="tervben">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="projektek.html">Vissza</a>
+                            tervben
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="text-center">
+            Az oldal jelenlegi verziója: 2.0
+        </footer>
+    </body>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</html>
+<script>
+console.log("Érzékelem a js-t");
+        $(function(){
+            var $content = $("#content");
+            console.log("Érzékelem a feladatot");
+            if ($content.length) {
+                $content.load("teszt.html");
+                console.log("Sikeres");
+            }
+        });
+
+    // JavaScript kód az URL paraméterek lekérdezéséhez
+    const urlParams = new URLSearchParams(window.location.search);
+    const allapot = urlParams.get('allapot');
+
+    switch (allapot) {
+        case 'befejezett':
+            document.getElementById('semmi').classList.add("d-none");
+            document.getElementById(allapot).classList.remove("d-none");
+            break;
+        case 'futo':
+            document.getElementById('semmi').classList.add("d-none");
+            document.getElementById(allapot).classList.remove("d-none");
+            break;
+        case 'felfuggesztett':
+            document.getElementById('semmi').classList.add("d-none");
+            document.getElementById(allapot).classList.remove("d-none");
+            break;
+        case 'tervben':
+            document.getElementById('semmi').classList.add("d-none");
+            document.getElementById(allapot).classList.remove("d-none");
+            break;
+        default:
+            document.getElementById('semmi').classList.remove("d-none");
+            break;
+    }
+</script>

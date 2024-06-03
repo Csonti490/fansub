@@ -79,8 +79,24 @@ a.linkek {
     text-decoration: none !important;
 }
 
+/*---------- Felugró ablak ----------*/
+.modal-body {
+    background-color: var(--sotetkek);
+    text-align: justify;
+}
+.modal-header, .modal-footer {
+    background-color: var(--sotetlila);
+    color: white;
+}
+#felugro_kep {
+    width: 60%;
+}
+#kilepModal input[type="submit"], #kilepModal button {
+    cursor: pointer;
+}
+
 /*Projektek*/
-main#kepek img {
+img.kepek {
     object-fit: fill;
     width: 100%;
     height: 100%;

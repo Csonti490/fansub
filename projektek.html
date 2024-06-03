@@ -11,26 +11,27 @@
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="img/YourAnimeList_Logo2.png">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-        <div id="content"></div>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
         <title>CsontiXD | Főoldal</title>
+        <meta http-equiv="refresh" content="10">
     </head>
     <body>
         <header>
             <nav class="navbar navbar-expand-md navbar-dark hatternav">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.php" style="padding: 8px 0 !important;"><img src="img/YourAnimeList_title2.png" title="YourAnimeList" alt="Logo" class="d-block"></a>
+                    <a class="navbar-brand" href="index.html" style="padding: 8px 0 !important;"><img src="img/YourAnimeList_title2.png" title="YourAnimeList" alt="CsontiXD" class="d-block"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="statisztika.php"><i class="fa-solid fa-house"></i> Főoldal</a>
+                                <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Főoldal</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="hirfolyam.php"><i class="fa-solid fa-newspaper"></i> Hírfolyam</a>
+                                <a class="nav-link" href="hirfolyam.html"><i class="fa-solid fa-newspaper"></i> Hírfolyam</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,89 +45,178 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="modositas.php"><i class="fa-solid fa-sliders"></i> Állapotjelző</a>
+                                <a class="nav-link" href="allapot.html"><i class="fa-solid fa-sliders"></i> Állapotjelző</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="lista.php"><i class="fa-solid fa-user"></i> Elérhetőségek</a>
+                                <a class="nav-link" href="elerhetoseg.html"><i class="fa-solid fa-user"></i> Elérhetőségek</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <main>
+        <main id="kepek">
 
             <div class="container h-50 text-light my-5" id="httr">
-                <div class="p-5 text-center"><hr><h1 class="w-100 py-3">Projektek</h1><hr></div>
+                <div class="p-5 text-center">
+                    <hr class="border border-5 rounded-circle">
+                    <h1 class="w-100 py-3" id="cimecske">Projektek</h1>
+                    <hr class="border border-5 rounded-circle">
+                </div>
             </div>
 
             <div class="d-none" id="semmi">
-                <div class="container text-center">
-                <div class="row">
-                    <div class="col-3">
-                        <a href="projektek.html?allapot=befejezett">
-                            Befejezett
-                        </a>
-                    </div>
-                    <div class="col-3">
-                        <a href="projektek.html?allapot=futo">
-                            Futó
-                        </a>
-                    </div>
-                    <div class="col-3">
-                        <a href="projektek.html?allapot=felfuggesztett">
-                            Felfüggesztett
-                        </a>
-                    </div>
-                    <div class="col-3">
-                        <a href="projektek.html?allapot=tervben">
-                            Tervben
-                        </a>
+                <div class="container m-0 p-0 d-block mx-auto p-3">
+                    <div class="row m-0 p-0">
+                        <div class="col-12 col-sm-6 col-md-3 py-3">
+                            <button class="w-100 p-3" onclick="location.href='projektek.html?allapot=befejezett'">Befejezett</button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 py-3">
+                            <button class="w-100 p-3" onclick="location.href='projektek.html?allapot=futo'">Futó</button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 py-3">
+                            <button class="w-100 p-3" onclick="location.href='projektek.html?allapot=felfuggesztett'">Felfüggesztett</button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 py-3">
+                            <button class="w-100 p-3" onclick="location.href='projektek.html?allapot=tervezett'">Tervezett</button>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div class="d-none" id="vissza">
+                <div class="container m-0 p-0 d-block mx-auto p-3">
+                    <div class="row m-0 p-0">
+                        <div class="col-12 py-3">
+                            <button class="p_gomb d-block mx-auto w-50 p-3" onclick="location.href='projektek.html'">Vissza</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             
             <div class="d-none" id="befejezett">
-                <div class="container">
+                <div class="container d-block mx-auto m-0 p-0">
                     <div class="row">
-                        <div class="col-12 text-center">
-                            <p><a href="projektek.html">Vissza</a></p>
+                        <div class="col-12">
                             <img src="img/menhera_chan-waiting.gif" alt="Hiba a kép betöltésekor">
-                            <h3 class="text-center">Sajnos nincsen ilyen projekt</h3>
+                            befejezett
+                            <div class="container m-0 p-0">
+                                <div class="row">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 border p-3">
+                                        <img src="img/_.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="d-none" id="futo">
-                <div class="container">
+                <div class="container d-block mx-auto m-0 p-0">
                     <div class="row">
                         <div class="col-12">
-                            <a href="projektek.html">Vissza</a>
-                            futo
+                            <div class="container m-0 p-0">
+                                <div class="row">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 border p-3">
+                                        <img src="img/_.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="d-none" id="felfuggesztett">
-                <div class="container">
+                <div class="container d-block mx-auto m-0 p-0">
                     <div class="row">
                         <div class="col-12">
-                            <a href="projektek.html">Vissza</a>
-                            felfuggesztett
+                            <div class="container m-0 p-0">
+                                <div class="row">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 border p-3">
+                                        <img src="img/_.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class="d-none" id="tervben">
-                <div class="container">
+            <div class="d-none" id="tervezett">
+                <div class="container d-block mx-auto m-0 p-0">
                     <div class="row">
                         <div class="col-12">
-                            <a href="projektek.html">Vissza</a>
-                            tervben
+                            <div class="container m-0 p-0">
+                                <div class="row">
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 border p-1">
+                                        <div class="container p-0">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="img/rwby_fairy_tales_poster.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="d-block mx-auto">
+                                                </div>
+                                                <div class="col-12">
+                                                    <h5 class="text-center">RWBY - Fairy Tales</h5>
+                                                    <button onclick="location.href='videok.html'">Projekthez</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 border p-1">
+                                        <div class="container m-0 p-0">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="img/rwby_chibi_1.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="d-block mx-auto">
+                                                </div>
+                                                <div class="col-12">
+                                                    <h5 class="text-center">RWBY Chibi 1.évad</h5>
+                                                    <button onclick="location.href='videok.html'">Projekthez</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 border p-1">
+                                        <div class="container m-0 p-0">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="img/rwby_chibi_2.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="d-block mx-auto">
+                                                </div>
+                                                <div class="col-12">
+                                                    <h5 class="text-center">RWBY Chibi 2.évad</h5>
+                                                    <button onclick="location.href='videok.html'">Projekthez</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 border p-1">
+                                        <div class="container m-0 p-0">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="img/rwby_chibi_3.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="d-block mx-auto">
+                                                </div>
+                                                <div class="col-12">
+                                                    <h5 class="text-center">RWBY Chibi 3.évad</h5>
+                                                    <button onclick="location.href='videok.html'">Projekthez</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 border p-1">
+                                        <div class="container m-0 p-0">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <img src="img/rwby_chibi_4.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="d-block mx-auto">
+                                                </div>
+                                                <div class="col-12">
+                                                    <h5 class="text-center">RWBY Chibi 4.évad</h5>
+                                                    <button onclick="location.href='videok.html'">Projekthez</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -141,39 +231,50 @@
     <script src="main.js"></script>
 </html>
 <script>
-console.log("Érzékelem a js-t");
-        $(function(){
-            var $content = $("#content");
-            console.log("Érzékelem a feladatot");
-            if ($content.length) {
-                $content.load("teszt.html");
-                console.log("Sikeres");
-            }
-        });
-
-    // JavaScript kód az URL paraméterek lekérdezéséhez
+    
+    /*Oldalcím és háttér*/
+    window.onload = (event) => {
+    Keptolt();
+    };
+    var pictures = ['1.png','2.png','3.jpg','4.jpg','5.jpg','6.jpg'];
+    var kephely = document.getElementById("httr");
+    function Keptolt(){
+    var rand = Math.floor(Math.random() * pictures.length);
+    kephely.style.backgroundImage = "url(img/bgc/kep"+pictures[rand]+")";
+    }
+    
+    /*Mi látszódjon*/
     const urlParams = new URLSearchParams(window.location.search);
     const allapot = urlParams.get('allapot');
+    
+    if(allapot){
+        document.getElementById('semmi').classList.add("d-none");
+        document.getElementById(allapot).classList.remove("d-none");
+        document.getElementById('vissza').classList.remove("d-none");
+    }
+    else{
+        document.getElementById('semmi').classList.remove("d-none");
+        document.getElementById('vissza').classList.add("d-none");
+    }
 
+    var cimek = ["Befejezett","Futó","Felfüggesztett","Tervezett"];
     switch (allapot) {
         case 'befejezett':
-            document.getElementById('semmi').classList.add("d-none");
-            document.getElementById(allapot).classList.remove("d-none");
+            szoveg = cimek[0];
             break;
         case 'futo':
-            document.getElementById('semmi').classList.add("d-none");
-            document.getElementById(allapot).classList.remove("d-none");
+            szoveg = cimek[1];
             break;
         case 'felfuggesztett':
-            document.getElementById('semmi').classList.add("d-none");
-            document.getElementById(allapot).classList.remove("d-none");
+            szoveg = cimek[2];
             break;
-        case 'tervben':
-            document.getElementById('semmi').classList.add("d-none");
-            document.getElementById(allapot).classList.remove("d-none");
+        case 'tervezett':
+            szoveg = cimek[3];
             break;
         default:
-            document.getElementById('semmi').classList.remove("d-none");
+            szoveg = "Projektek";
             break;
     }
+    document.getElementById('cimecske').innerText = szoveg;
+
 </script>

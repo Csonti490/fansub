@@ -15,6 +15,7 @@
     --szin3: rgb(11,15,25); /* ajanlo */
     --szin4: rgb(35,38,39); /* szurke regist/login */
 }
+/*Alap*/
 *{
     box-sizing: border-box;
 }
@@ -79,7 +80,7 @@ a.linkek {
     text-decoration: none !important;
 }
 
-/*---------- Felugró ablak ----------*/
+/*Felugró ablak*/
 .modal-body {
     background-color: var(--sotetkek);
     text-align: justify;
@@ -120,4 +121,18 @@ div#httr {
 }
 div.szoveg {
     font-family: 'Metrophobic', sans-serif;/*Ez még nem éles*/
+}
+
+/*Posztok*/
+.posztok{
+    background-color: var(--sotetlila);
+    border: 1px solid white;
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 30px 0px;
+}
+.posztok .datum {
+    text-align: right;
+    margin: 0;
+    padding: 0;
 }

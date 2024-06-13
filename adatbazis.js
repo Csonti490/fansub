@@ -929,7 +929,6 @@ function EpisodeDefault(){
         `;
     }
     document.getElementById("episodes").innerHTML = pagination;
-    document.getElementById("episodes").innerHTML += '<br><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>';
 
 }
 
@@ -1005,6 +1004,7 @@ function EpisodeChange(n) {
         document.getElementById("episodeTitle").textContent = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].title}`;
         document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
         document.getElementById("synopsis").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
+        document.getElementById("synopsis").innerHTML += '<br><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>';
     } else console.log("INVALID URL")
 }
 

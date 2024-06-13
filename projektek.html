@@ -15,10 +15,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
         <title>CsontiXD | Projektek</title>
+        <script src="adatbazis.js"></script>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark hatternav">
+            <nav class="navbar navbar-expand-sm navbar-dark hatternav">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html" style="padding: 8px 0 !important;">CsontiXD</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,16 +33,8 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="hirfolyam.html"><i class="fa-solid fa-newspaper"></i> Hírfolyam</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa-solid fa-film"></i> Projektek
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="projektek.html?allapot=befejezett"><i class="fa-solid fa-check"></i> Befejezett</a></li>
-                                    <li><a class="dropdown-item" href="projektek.html?allapot=futo"><i class="fa-solid fa-hourglass-half"></i> Futó</a></li>
-                                    <li><a class="dropdown-item" href="projektek.html?allapot=felfuggesztett"><i class="fa-solid fa-xmark"></i> Felfüggesztett</a></li>
-                                    <li><a class="dropdown-item" href="projektek.html?allapot=tervezett"><i class="fa-solid fa-paperclip"></i> Tervben</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projektek.html"><i class="fa-solid fa-film"></i> Projektek</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="info.html"><i class="fa-solid fa-circle-info"></i></i> Infó</a>
@@ -115,7 +108,7 @@
                                     </div>
                                     <div class="col-12 text-center">
                                         <h5>RWBY 5.évad</h5>
-                                        <button onclick="location.href='videok.html'" disabled>Projekthez</button>
+                                        <button onclick="ProjectChange(5)">Projekthez</button>
                                     </div>
                                 </div>
                             </div>
@@ -248,10 +241,10 @@
                                         <div class="container p-0">
                                             <div class="row">
                                                 <div class="col-12">
-                                                    <img src="img/rwby_.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="d-block mx-auto kepek">
+                                                    <img src="img/rwby_beyond.png" alt="Hibás kép" onerror="KepHiba(this)" class="d-block mx-auto kepek">
                                                 </div>
                                                 <div class="col-12 text-center">
-                                                    <h5>RWBY - Beyong</h5>
+                                                    <h5>RWBY - Beyond</h5>
                                                     <button onclick="location.href='videok.html'" disabled>Projekthez</button>
                                                 </div>
                                             </div>
@@ -264,7 +257,7 @@
                     </div>
                 </div>
             </div>
-
+<a href="videok.html" onclick="ProjectChange(1)">hehe</a>
         </main>
         <footer class="text-center">
             Az oldal jelenlegi verziója: 2.0

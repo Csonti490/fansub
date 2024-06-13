@@ -15,10 +15,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
         <title>CsontiXD | Főoldal</title>
+        <script src="adatbazis.js"></script>
     </head>
-    <body>
+    <body onload="FirstLoad(); EpisodeDefault();">
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark hatternav">
+            <nav class="navbar navbar-expand-sm navbar-dark hatternav">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html" style="padding: 8px 0 !important;"><img src="img/YourAnimeList_title2.png" title="YourAnimeList" alt="CsontiXD" class="d-block"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,16 +33,8 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="hirfolyam.html"><i class="fa-solid fa-newspaper"></i> Hírfolyam</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa-solid fa-film"></i> Projektek
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="projektek.html?allapot=befejezett"><i class="fa-solid fa-check"></i> Befejezett</a></li>
-                                    <li><a class="dropdown-item" href="projektek.html?allapot=futo"><i class="fa-solid fa-hourglass-half"></i> Futó</a></li>
-                                    <li><a class="dropdown-item" href="projektek.html?allapot=felfuggesztett"><i class="fa-solid fa-xmark"></i> Felfüggesztett</a></li>
-                                    <li><a class="dropdown-item" href="projektek.html?allapot=tervben"><i class="fa-solid fa-paperclip"></i> Tervben</a></li>
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="projektek.html"><i class="fa-solid fa-film"></i> Projektek</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="allapot.html"><i class="fa-solid fa-sliders"></i> Állapotjelző</a>
@@ -64,6 +57,29 @@
                         <p>Dátum: 2024.05.31</p>
                     </div>
                 </div>
+            </div>
+
+            <div id="tartalom">
+                <h1 id="pn">Jelenteg nincsen itt semmi tartalom</h1>
+                <table id="videos">
+                    <tr>
+                        <th id="episodeTitle"></th><!---->
+                    </tr>
+                    <tr>
+                        <td id="video"></td><!---->
+                    </tr>
+                    <tr>
+                        <td id="azok">
+                            <ul id="episodes">
+                                
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr id="synopsis">
+                        
+                    </tr>
+                </table>
+                <br>
             </div>
 
         </main>

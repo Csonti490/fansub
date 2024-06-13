@@ -929,6 +929,7 @@ function EpisodeDefault(){
         `;
     }
     document.getElementById("episodes").innerHTML = pagination;
+    document.getElementById("episodes").innerHTML += '<br><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>';
 
 }
 

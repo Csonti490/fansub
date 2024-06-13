@@ -1,6 +1,13 @@
-/* |=| SkelyXD Subs |=| Készítette: CsontiXD és Karesz */
+/*
+Üdv!
+Ha éppen ezt a szöveget olvasod, akkor tájékoztatlak arról, hogy...
+Az ezen az oldalon található tartalmak más oldalakra való felhasználásához nem járulok hozzá!
+Ha esetleg ezen az oldalon (+egyéb másik hozzám tartozó platformos profiljaimon) kívül látod, akkor kérlek írj nekem (skelyxd@gmail.com).
+*/
+
+/* |=| Adatbázis |=| */
 var iimmgg = `<img src="images/sad.jpg" alt="Nincs elérhető videó" id="sad">`;
-var videoSources = { // 867 sor ez a "kis" adatbázis
+var videoSources = {
     series: [
         {
             title: "RWBY: 1.fejezet",

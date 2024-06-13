@@ -911,17 +911,10 @@ function FirstLoad(){
     if((localStorage.getItem('result_was_set') === "false")) localStorage.setItem('result', 0);
 }
 
-// Melyik sorozat?
 function EpisodeDefault(){
-    /*alert(localStorage.getItem('result'));*/
-    /*if (localStorage.getItem('result') == 1)
-        document.getElementById("pn").innerHTML = "sikeres";
-    else
-        document.getElementById("pn").innerHTML = "sikertelen";*/
     document.getElementById("pn").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].title}`;
     document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].de}`;
     document.getElementById("episodeTitle").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].ti}`;
-    /*document.getElementById("pn").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].description}`;*/
     let pagination = ``;
     for(let i = 0; i < videoSources.series[(+localStorage.getItem('result')) - 1].episodes.length; i++){
         pagination += `

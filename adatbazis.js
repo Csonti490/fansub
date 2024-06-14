@@ -6,7 +6,7 @@ Ha esetleg ezen az oldalon (+egyéb másik hozzám tartozó platformos profiljai
 */
 
 /* |=| Adatbázis |=| */
-var iimmgg = `<img src="images/sad.jpg" alt="Nincs elérhető videó" id="sad">`;
+var iimmgg = `<img src="img/novideo.jpg" alt="Nincs elérhető videó" id="sad">`;
 var videoSources = {
     series: [
         {
@@ -654,14 +654,19 @@ var videoSources = {
             ]
         },
         {
-            title: "Igazság Ligája x RWBY: Szuperhősök és Vadászok - Part I",
+            title: "Igazság Ligája x RWBY: Szuperhősök és Vadászok",
             ti: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
-            de: `<img src="images/rwby_x_justice_league_poster.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak a Maradék nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben a Maradék hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja a Maradék világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Ugrás a videóhoz</a></p>`,
+            de: `<img src="images/rwby_x_justice_league_poster.jpg" class="kiskep2"><p id ="soriinfo">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak Remnant nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben Remnant hősei – Ruby, Weiss, Blake és Yang – rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja Remnant világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?<br><br>Előzetes: <a  title="Előzetes" onclick="Mehet('https://mega.nz/embed/bktAUAxQ#teZABYQLTb80mSSgwvRgvPyp83GJyy54Zl-tT-KB6gw')">Ugrás a videóhoz</a></p>`,
             episodes: [ // Nothing
             {
                 title: "Part I",
                 sourceCode: iimmgg,
-                desc: `<td id="leiras"><p id="lone">Film rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Debütálás (hely: ---): 2023.04.25.</p></td>`
+                desc: `<td id="leiras"><p id="lone">Film rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Debütálás: 2023.04.25.</p></td>`
+            },
+            {
+                title: "Part II",
+                sourceCode: iimmgg,
+                desc: `<td id="leiras"><p id="lone">Film rövid leírása</p><p id="ltwo">-Nincsen elérhető leírás-<br>Debütálás: 2023.10.17.</p></td>`
             }
             ]
         },
@@ -672,22 +677,22 @@ var videoSources = {
             episodes: [ // https://rwby.fandom.com/wiki/Trailers
                 {
                     title: "Red Trailer",
-                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/upV0ka5L#aQg1tzMBXDSIvOUBkUZ3HJXlr-JAGZE1LTKqjx0fTTE" allowfullscreen ></iframe>`,
+                    sourceCode: iimmgg,
                     desc: `<td id="leiras"><p id="lone">1. rész rövid leírása</p><p id="ltwo">„<i>Mindannyian elvesztettünk valamit, és láttam, hogy a veszteség milyen hatással lehet az emberekre. De ha minden alkalommal feladnánk, amikor veszítettünk, akkor soha nem tudnánk előre lépni.</i>”<br><span style="float:right;">- Ruby Rose</span>&nbsp</p></td>`
                 },
                 {
                     title: "White Trailer",
-                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/i1Ml2aIb#r25DZ3hpSJZTIbtSpr6i--JH1_NmAqbbQR5zGRXq2ZY" allowfullscreen ></iframe>`,
+                    sourceCode: iimmgg,
                     desc: `<td id="leiras"><p id="lone">2. rész rövid leírása</p><p id="ltwo">„<i>Nem tudom, kinek képzeli magát, de hadd mondjam el, ki vagyok: egy hős unokája vagyok, és egy gazember gyermeke. Egy bukott Királyság polgára vagyok, és a semmi örököse. Engem nem a nevem határoz meg, mert én leszek az, aki meghatározza.</i>”<br><span style="float:right;">- Weiss Schnee</span>&nbsp</p></td>`
                 },
                 {
                     title: "Black Trailer",
-                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/v88H3C5T#VUPiMlIfmroW44_8ZAxCfRD9fpMXfiJtKvaupX35hyA" allowfullscreen ></iframe>`,
+                    sourceCode: iimmgg,
                     desc: `<td id="leiras"><p id="lone">3. rész rövid leírása</p><p id="ltwo">„<i>Egy egyszerű élet nem lenne az én életem! A családom, a barátaim, a kultúrám. Hozzájuk tartozom, éppúgy, mint ők hozzám. Mindezt feladni nem egyszerűség lenne, hanem árulás.</i>”<br><span style="float:right;">- Blake Belladonna</span>&nbsp</p></td>`
                 },
                 {
                     title: "Yellow Trailer",
-                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/7ocRVTzJ#EyljGcpchRs7V69MpIWVMukp9SB60AHJYVqny293XYg" allowfullscreen ></iframe>`,
+                    sourceCode: iimmgg,
                     desc: `<td id="leiras"><p id="lone">4. rész rövid leírása</p><p id="ltwo">„<i>A veszteségeim, a kudarcaim. Ezek mindennél jobban formáltak azzá, aki vagyok, és megmutatták, hogyan kell fejlődnöm. Ha valami hiányzik, az nem azért van, mert elvesztettem. Ez azért van, mert még nem találtam meg. És ennek egyetlen módja a folytatás.</i>”<br><span style="float:right;">- Yang Xiao Long</span>&nbsp</p></td>`
                 },
             ]
@@ -877,33 +882,6 @@ var videoSources = {
             ]
         },
         {
-            title: "Zenék",
-            ti: "Szinopszis", // Nothing
-            de: `<img src="images/loading_poster.jpg" class="kiskep2"><p id ="soriinfo">Itt olyan openingek, endingek és betétdalok szerepelnek, amiket le akartam fordítani. Így sikerültek :)<br><br>Openingek: RWBY 5.fejezet, RWBY 8.fejezet, RWBY 9.fejezet, SSnVR<br>Endingek: ---<br>Betétdalok: ---</p>`,
-            episodes: [ // Nothing
-                {
-                    title: "RWBY: The Triumph",
-                    sourceCode: `<iframe width="660" height="380" src="https://www.youtube.com/embed/9HcEHMDQSFM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 5.fejezet Openingje. "The Triumph"<br>Komponálta: Jeff Williams<br>Énekli: Casey Lee Williams</p></td>`
-                },
-                {
-                    title: "RWBY: For Every Life",
-                    sourceCode: `<iframe width="660" height="380" src="https://www.youtube.com/embed/yel_We3OW7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 8.fejezet Openingje. "For Every Life"<br>Komponálta: Jeff Williams<br>Énekli: Casey Lee Williams</p></td>`
-                },
-                {
-                    title: "RWBY: Inside",
-                    sourceCode: `<iframe title="indavideo video player" allowfullscreen scrolling="no" class="indavideo-player"  id="player-255e165111" type="text/html" width="660" height="380" src="//embed.indavideo.hu/player/video/255e165111" frameborder="0"></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a RWBY 9.fejezet Openingje. "Inside"<br>Komponálta: Martin Gonzalez, Casey Lee Williams<br>Énekli: Casey Lee Williams</p></td>`
-                },
-                {
-                    title: "Shokei Shoujo no Virgin Road: Paper Bouquet",
-                    sourceCode: `<iframe width="660" height="380" src="https://www.youtube.com/embed/iL9NGfxSg7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">- Leírás -</p><p id="ltwo">Ez a dal a <a href="https://myanimelist.net/anime/47162/Shokei_Shoujo_no_Virgin_Road" target="_blank" title="MAL link">Shokei Shoujo no Virgin Road</a> Openingje.<br>Komponálta: Cassie Wei & Yamato Kasai<br>Énekli: Cassie Wei / Mili</p></td>`
-                }
-            ]
-        },
-        {
             title: "Nincs elérhető információ",
             ti: "", // Nothing
             de: `<img src="images/sad2.jpg" class="kiskep2"><p id ="soriinfo">&nbsp;</p>`,
@@ -963,7 +941,7 @@ function ProjectChange(n) {
             localStorage.setItem('result', 9); // 9.fejezet
             break;
         case 10:
-            localStorage.setItem('result', 10); // RWBY x JL
+            localStorage.setItem('result', 10); // RWBY x JL (Part I & Part II)
             break;
         case 11:
             localStorage.setItem('result', 11); // RWBY Trailers
@@ -990,10 +968,7 @@ function ProjectChange(n) {
             localStorage.setItem('result', 18); // RWBY Chibi 4
             break;
         case 19:
-            localStorage.setItem('result', 19); // Random Zene
-            break;
-        default:
-            localStorage.setItem('result', 20); // Default
+            localStorage.setItem('result', 19); // Default
             break;
     }
 }

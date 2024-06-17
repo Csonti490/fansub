@@ -30,7 +30,7 @@
                                 <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Főoldal</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="hirfolyam.html"><i class="fa-solid fa-newspaper"></i> Hírfolyam</a>
+                                <a class="nav-link" href="hirfolyam.html"><i class="fa-solid fa-Projectspaper"></i> Hírfolyam</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="projektek.html"><i class="fa-solid fa-film"></i> Projektek</a>
@@ -64,9 +64,7 @@
                             </div>
                         </p>
                         <p class="d-inline-block">RWBY - World of Remnant - 3.rész (Grimm) &emsp;
-                            <div class="progress w-25 d-inline-block">
-                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">95%</div>
-                            </div>
+                            
                         </p>
                     </div>
                 </div>
@@ -103,6 +101,23 @@
                 </div>
             </div>
 
+            <div class="container">
+                <div class="row fw-bold">
+                    <div class="col-4">
+                        Cím
+                    </div>
+                    <div class="col-4">
+                        Készenlét
+                    </div>
+                    <div class="col-4">
+                        Művelet
+                    </div>
+                </div>
+                <div id="stts">
+
+                </div>
+            </div>
+
         </main>
         <footer class="text-center">
             Az oldal jelenlegi verziója: 2.0
@@ -111,3 +126,64 @@
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </html>
+<script>
+    var Projects = [
+        {
+            title: "RWBY 5.évad 9.rész",
+            percentage: "60",
+            status: "Lektorálás alatt"
+        },
+        {
+            title: "RWBY - World of Remnant - 3.rész",
+            percentage: "50",
+            status: "Lektorálás alatt"
+        },
+        {
+            title: "Cím3",
+            percentage: "10",
+            status: "Fordítás alatt"
+        }
+    ]
+    var hely = document.getElementById("stts");
+    let adat = "";
+    for(let i = 0; i < Projects.length; i++){
+        adat += `<div class="row">
+        <div class="col-4 border">
+            ${Projects[i].title}
+        </div>
+        <div class="col-4 border">
+            <progress class="w-75" id="file" max="100" value="${Projects[i].percentage}">${Projects[i].percentage}%</progress>
+        </div>
+        <div class="col-4 border">
+            ${Projects[i].status}
+        </div>
+    </div>`;
+    }
+    hely.innerHTML = adat;
+</script>
+<style>
+    progress {
+        height: 1rem;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    progress:before{
+        content: "asd";
+    }
+    #kint {
+        height: 1.5rem;
+        background-color: white;
+    }
+    #bent {
+        height: 1.5rem;
+        background-color: #0064b4;
+    }
+</style>
+
+<div class="border border-primary">
+    <div id="kint" style="width: 100%;">
+        <div id="bent" style="width: 30%;" class="text-center">50</div>
+    </div>
+</div>
+

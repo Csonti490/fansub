@@ -30,13 +30,13 @@
                                 <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Főoldal</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="hirfolyam.html"><i class="fa-solid fa-newspaper"></i> Hírfolyam</a>
+                                <a class="nav-link" href="index.html"><i class="fa-solid fa-newspaper"></i> Hírfolyam</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="projektek.html"><i class="fa-solid fa-film"></i> Projektek</a>
+                                <a class="nav-link" href="index.html"><i class="fa-solid fa-film"></i> Projektek</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="info.html"><i class="fa-solid fa-circle-info"></i></i> Infó</a>
+                                <a class="nav-link" href="index.html"><i class="fa-solid fa-circle-info"></i></i> Infó</a>
                             </li>
                         </ul>
                     </div>
@@ -53,6 +53,10 @@
                 </div>
             </div>
 
+            <p><span>Szöveg</span></p>
+            <span data-bs-toggle="popover" title="Popover title" data-bs-html="true" data-bs-content="<img src='img/animepic/fma.png'>">Click to toggle popover</span>
+
+
             <div class="container my-5">
                 <div class="row m-0 p-0">
                     <div class="col-12 posztok">
@@ -63,8 +67,11 @@
                                 <div class="col-12">
                                     <img src="img/animepic/fma.png" alt="" class="d-block mx-auto w-100" style="max-width: 300px !important;">
                                     <hr style="margin-top: -10px;">
-                                    <h2 class="text-center">Jelenleg ez az oldal fejlesztés alatt áll</h2>
+                                    <h2 class="text-center">Jelenleg az oldal fejlesztés alatt áll!</h2>
                                     <hr>
+                                </div>
+                                <div class="col-12">
+                                    Várható oldalnyitás: 2024.06.28.
                                 </div>
                             </div>
                         </div>
@@ -95,17 +102,9 @@
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </html>
-<!--
-
-<i class="fa-solid fa-check"></i>
-<i class="fa-solid fa-hourglass-half"></i>
-<i class="fa-solid fa-xmark"></i>
-<i class="fa-solid fa-paperclip"></i> 
-
-<i class="fa-solid fa-film"></i>
-
-<li class="nav-item">
-                                <a class="nav-link" href="projektek.html"><i class="fa-solid fa-newspaper"></i> Projektek</a>
-                            </li>
-
--->
+                            <script>
+                                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+    })
+                            </script>

@@ -7,7 +7,6 @@ Ha esetleg ezen az oldalon (+egyéb másik hozzám tartozó platformos profiljai
 
 /* |=| Adatbázis |=| */
 var iimmgg = `<img src="img/novideo.jpg" alt="Nincs elérhető videó" class="d-block mx-auto w-100">`;
-var BackToSynopsis = `<p class="text-center"><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button></p>`;
 var videoSources = {
     series: [
         {
@@ -372,7 +371,7 @@ var videoSources = {
                 {
                     title: "Haven's Fate / Haven Sorsa",
                     sourceCode: iimmgg,
-                    desc: `<div id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald összeomlik, amikor megtudja Cinder vereségét, miközben Adam és Lionheart menekül, így Mercury és Hazel visszavonulásra kényszerülnek. Annak ellenére, hogy Yangben rövid ideig feszültség uralkodik, Blake-et üdvözli a csapatban.</p>`+{BackToSynopsis}+`</div>`
+                    desc: `<div id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald összeomlik, amikor megtudja Cinder vereségét, miközben Adam és Lionheart menekül, így Mercury és Hazel visszavonulásra kényszerülnek. Annak ellenére, hogy Yangben rövid ideig feszültség uralkodik, Blake-et üdvözli a csapatban.</p><p class="text-center"><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button></p></div>`
                 }
             ]
         },

@@ -211,6 +211,22 @@ ul#episodes li.target:hover {
     background-color: white;
     font-weight: bold;
 }
-div#leiras {
+div.synopsis {
+    /**/
+}
+iframe, .novideo {
+    aspect-ratio: 16/9;
+    max-width: 660px !important;
+    max-height: 380px !important;
+    display: block;
+    margin: 0 auto;
+}
+#episodes, div#leiras, p#soriinfo {
+    max-width: 660px !important;
+}
+div#leiras, p#soriinfo {
     text-align: justify;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: var(--vilagosszurke);
 }

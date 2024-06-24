@@ -150,13 +150,67 @@ h5.cim {
     overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 0;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
 }
 .ppp a {
     color: white;
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
 }
+.ppp img{
+    border-top: 2.5px solid white;
+}
+.ppp .cimdoboz {
+    border-bottom: 2.5px solid white;
+}
+.ppp img, .ppp .cimdoboz {
+    border-left: 2.5px solid white;
+    border-right: 2.5px solid white;
+}
+.pbtn {
+    max-width: 250px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 2.5px solid white;
+}
+.pbtn:hover {
+    font-weight: bold;
+    transition: 0.25s;
+    background-color: var(--vilagosszurke);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    content: 'asd';
+}
+.pbtn:hover::before, .pbtn:hover::after {
+    content: " = ";
+}
 /*Videok*/
+ul#episodes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+ul#episodes li.target {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px 5px;
+    
+}
+ul#episodes li.target:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
 div#leiras {
     text-align: justify;
 }

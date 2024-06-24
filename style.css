@@ -230,5 +230,5 @@ div#leiras, div#soriinfo {
     border: 1px solid white;
     background-color: var(--vilagosszurke);
     display: block;
-    margin: 0 auto;
+    margin: 16px auto;
 }

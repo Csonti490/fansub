@@ -371,7 +371,7 @@ var videoSources = {
                 {
                     title: "Haven's Fate / Haven Sorsa",
                     sourceCode: iimmgg,
-                    desc: `<div id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald összeomlik, amikor megtudja Cinder vereségét, miközben Adam és Lionheart menekül, így Mercury és Hazel visszavonulásra kényszerülnek. Annak ellenére, hogy Yangben rövid ideig feszültség uralkodik, Blake-et üdvözli a csapatban.</p><p class="text-center"><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button></p></div>`
+                    desc: `<div id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald összeomlik, amikor megtudja Cinder vereségét, miközben Adam és Lionheart menekül, így Mercury és Hazel visszavonulásra kényszerülnek. Annak ellenére, hogy Yangben rövid ideig feszültség uralkodik, Blake-et üdvözli a csapatban.</p></div>`
                 }
             ]
         },
@@ -1020,6 +1020,7 @@ function EpisodeChange(n) {
         document.getElementById("episodeTitle").textContent = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].title}`;
         document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
         document.getElementById("synopsis").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
+        document.getElementById("synopsis").innerHTML += `<p class="text-center"><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button></p>`;
     } else console.log("INVALID URL")
     //alert(`${videoSources.series[(+localStorage.getItem('result'))].title}`); // <- Kiválasztott sorozat címe
     //alert(`${videoSources.series[(+localStorage.getItem('result'))].episodes[episode].title}`); // <- Kiválasztott sorozat, kiválasztott epizódjának címe
@@ -1037,7 +1038,7 @@ function Vissza(){
     document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].de}`;
     document.getElementById("episodes").style.display="block";
     document.getElementById("synopsis").innerHTML = "";
-    window.scrollTo(0,1000);
+    window.scrollTo(0,0);
 }
 
 function ISeeYou(n){

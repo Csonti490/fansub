@@ -1037,6 +1037,8 @@ function Vissza(){
     document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].de}`;
     document.getElementById("episodes").style.display="block";
     document.getElementById("synopsis").innerHTML = "";
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
 
 function ISeeYou(n){

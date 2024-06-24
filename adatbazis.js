@@ -6,7 +6,7 @@ Ha esetleg ezen az oldalon (+egyéb másik hozzám tartozó platformos profiljai
 */
 
 /* |=| Adatbázis |=| */
-var iimmgg = `<img src="img/novideo.jpg" alt="Nincs elérhető videó" id="sad">`;
+var iimmgg = `<img src="img/novideo.jpg" alt="Nincs elérhető videó" class="d-block mx-auto w-100">`;
 var videoSources = {
     series: [
         {

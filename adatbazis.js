@@ -1003,7 +1003,7 @@ function ProjectChange(n) {
     }
 }
 
-function EpisodeChange(n) {
+/*function EpisodeChange(n) {
     let series = (+localStorage.getItem('result')), episode = n;
     if(window.location.pathname.includes("/videok.html")){
         document.getElementById("episodeTitle").textContent = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].title}`;
@@ -1011,6 +1011,20 @@ function EpisodeChange(n) {
         document.getElementById("synopsis").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
         document.getElementById("synopsis").innerHTML += '<br><button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>';
     } else console.log("INVALID URL")
+}*/
+function EpisodeChange(n) {
+    // Megkeressük a sorozatot a listából
+    let series = (+localStorage.getItem('result')), episode = n;
+    // Lineáris keresés (most epizódot keresünk) sorozat > epizód
+    if(window.location.pathname.includes("/skelyxd_v.html")){
+        //console.log("VALID URL")
+        document.getElementById("episodeTitle").textContent = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].title}`;
+        document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
+        document.getElementById("synopsis").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
+    } else console.log("INVALID URL")
+    alert(`${videoSources.series[(+localStorage.getItem('result'))].title}`); // <- Kiválasztott sorozat címe
+    alert(`${videoSources.series[(+localStorage.getItem('result'))].episodes[episode].title}`); // <- Kiválasztott sorozat, kiválasztott epizódjának címe
+    alert(`${videoSources.series[(+localStorage.getItem('result'))].episodes[episode].sourceCode}`); // <- Kiválasztott sorozat, kiválasztott epizódjának source code-ja.
 }
 
 function Mehet(adat){

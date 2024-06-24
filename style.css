@@ -136,3 +136,23 @@ div.szoveg {
     margin: 0;
     padding: 0;
 }
+
+/*Projektek*/
+div.cimdoboz{
+    height: 75px;
+    max-width: 250px;
+    background-color: var(--vilagosszurke);
+}
+h5.cim {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+.ppp a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+}

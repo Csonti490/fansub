@@ -854,33 +854,6 @@ var videoSources = {
             ]
         },
         {
-            title: "RWBY Beyond",
-            ti: "Szinopszis", // Nothing
-            de: `<img src="images/rwby_beyond.png" class="kiskep2"><p id ="soriinfo">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
-            episodes: [ // Nothing
-                {
-                    title: "Jr. Detectives",
-                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></td>`
-                },
-                {
-                    title: "A Knight's Journal",
-                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></td>`
-                },
-                {
-                    title: "The Adventures of Somewhat",
-                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></td>`
-                },
-                {
-                    title: "Boba",
-                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
-                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></td>`
-                }
-            ]
-        },
-        {
             title: "RWBY Chibi (1.évad)",
             ti: "Szinopszis", // Nothing
             de: `<img src="images/c_1.jpg" class="kiskep2"><p id ="soriinfo">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
@@ -906,6 +879,33 @@ var videoSources = {
             ti: "Szinopszis", // Nothing
             de: `<img src="images/c_4.jpg" class="kiskep2"><p id ="soriinfo">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
             episodes: [ // Nothing
+            ]
+        },
+        {
+            title: "RWBY Beyond",
+            ti: "Szinopszis", // Nothing
+            de: `<img src="images/rwby_beyond.png" class="kiskep2"><p id ="soriinfo">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
+            episodes: [ // Nothing
+                {
+                    title: "Jr. Detectives",
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></td>`
+                },
+                {
+                    title: "A Knight's Journal",
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></td>`
+                },
+                {
+                    title: "The Adventures of Somewhat",
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></td>`
+                },
+                {
+                    title: "Boba",
+                    sourceCode: `<iframe width="660" height="380" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<td id="leiras"><p id="lone">6. rész rövid leírása</p><p id="ltwo">Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></td>`
+                }
             ]
         },
         {
@@ -995,7 +995,10 @@ function ProjectChange(n) {
             localStorage.setItem('result', 18); // RWBY Chibi 4
             break;
         case 19:
-            localStorage.setItem('result', 19); // Default
+            localStorage.setItem('result', 18); // RWBY Beyond
+            break;
+        case 19:
+            localStorage.setItem('result', 20); // Default
             break;
     }
 }

@@ -221,12 +221,14 @@ iframe, .novideo {
     display: block;
     margin: 0 auto;
 }
-#episodes, div#leiras, p#soriinfo {
+#episodes, div#leiras, div#soriinfo {
     max-width: 660px !important;
 }
-div#leiras, p#soriinfo {
+div#leiras, div#soriinfo {
     text-align: justify;
     padding: 10px;
     border: 1px solid white;
     background-color: var(--vilagosszurke);
+    display: block;
+    margin: 0 auto;
 }

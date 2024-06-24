@@ -930,8 +930,7 @@ function EpisodeDefault(){
     let pagination = ``;
     for(let i = 0; i < videoSources.series[(+localStorage.getItem('result')) - 1].episodes.length; i++){
         pagination += `
-            <li class="target" onclick="EpisodeChange(${(+i + 1)})">${i + 1}. rész</li>
-        `;
+            <li class="target" onclick="EpisodeChange(${(+i + 1)})">${i + 1}. rész</li>`;
     }
     document.getElementById("episodes").innerHTML = pagination;
 

@@ -48,27 +48,70 @@
 
             <button onclick="location.href='projektek.html'">Vissza a <strong>Projektek</strong> oldalra</button>
 
+<div class="container">
+    <div class="row">
+        <div class="col-12 border">
+            <h1 id="pn">Jelenteg nincsen itt semmi tartalom</h1>
+            <h3 id="episodeTitle" class="text-center">Itt</h3>
+            <p id="video" class="text-center">random</p>
+            <div class="azok">
+                <ul id="episodes">
+                    <li class="target" onclick="EpisodeChange(1)">1. rész</li>
+
+                    <li class="target" onclick="EpisodeChange(2)">2. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(3)">3. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(4)">4. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(5)">5. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(6)">6. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(7)">7. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(8)">8. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(9)">9. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(10)">10. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(11)">11. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(12)">12. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(13)">13. rész</li>
+                
+                    <li class="target" onclick="EpisodeChange(14)">14. rész</li>
+                </ul>
+            </div>
+            <div id="synopsis"></div>
+        </div>
+    </div>
+</div>
+
             <div id="tartalom">
                 <h1 id="pn">Jelenteg nincsen itt semmi tartalom</h1>
-                <table id="videos">
-                    <tr>
-                        <th id="episodeTitle"></th><!---->
-                    </tr>
-                    <tr>
-                        <td id="video"></td><!---->
-                    </tr>
-                    <tr>
-                        <td id="azok">
-                            <ul id="episodes">
-                                
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr id="synopsis">
+                <div class="d-block mx-auto">
+                    <h3 id="episodeTitle" class="text-center">
+
+                    </h3>
+                    <p id="video" class="text-center">
+
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12" id="azok">
+                                <ul id="episodes">
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="synopsis">
                         
-                    </tr>
-                </table>
-                <br>
+                    </div>
+                </div>
             </div>
 
         </main>
@@ -80,6 +123,10 @@
     <script src="main.js"></script>
 </html>
 <style>
+    #azok {
+        border: 1px solid red;
+        text-align: center;
+    }
     ul#episodes {
         list-style-type: none;
         margin: 0;
@@ -88,7 +135,7 @@
         display: inline-block;
     }
     ul#episodes li.target {
-        display: inline-block;
+        /*display: inline-block;
         color: var(--alap);
         text-align: center;
         padding: 5px;
@@ -98,11 +145,20 @@
         margin: 5px 10px;
         border: 1px groove yellow;
         border-radius: 5px;
-        cursor: pointer;
+        cursor: pointer;*/
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        width: 100px;
+        border: 1px solid black;
+        margin: 5px 5px;
+        
     }
     ul#episodes li.target:hover {
         color: black;
-        background-color: red;
+        background-color: white;
         font-weight: bold;
     }
 </style>

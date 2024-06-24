@@ -55,9 +55,9 @@
                         <h3 id="episodeTitle" class="text-center">
 
                         </h3>
-                        <p id="video" class="text-center">
-
-                        </p>
+                        <div class="container row col-12 m-0 p-0" id="video">
+                            <iframe class="h-100" src="https://mega.nz/embed/7pl0jLTQ#MRg9GKtJrcoqefyTnJdl7X_rCaCU4ztstKYtQ3i4Mlo" allowfullscreen ></iframe>
+                        </div>
                         <div class="text-center">
                             <ul id="episodes">
                                 
@@ -78,3 +78,15 @@
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </html>
+<style>
+    div.synopsis {
+        /**/
+    }
+    iframe {
+        aspect-ratio: 16/9;
+        max-width: 660px !important;
+        max-height: 380px !important;
+        display: block;
+        margin: 0 auto;
+    }
+</style>

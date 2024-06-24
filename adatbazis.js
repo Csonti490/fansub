@@ -371,7 +371,7 @@ var videoSources = {
                 {
                     title: "Haven's Fate / Haven Sorsa",
                     sourceCode: iimmgg,
-                    desc: `<td id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald összeomlik, amikor megtudja Cinder vereségét, miközben Adam és Lionheart menekül, így Mercury és Hazel visszavonulásra kényszerülnek. Annak ellenére, hogy Yangben rövid ideig feszültség uralkodik, Blake-et üdvözli a csapatban.</p></td>`
+                    desc: `<td id="leiras"><p id="lone">14. rész rövid leírása</p><p id="ltwo">Emerald összeomlik, amikor megtudja Cinder vereségét, miközben Adam és Lionheart menekül, így Mercury és Hazel visszavonulásra kényszerülnek. Annak ellenére, hogy Yangben rövid ideig feszültség uralkodik, Blake-et üdvözli a csapatban. <button id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button></p></td>`
                 }
             ]
         },
@@ -1022,9 +1022,9 @@ function EpisodeChange(n) {
         document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
         document.getElementById("synopsis").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
     } else console.log("INVALID URL")
-    alert(`${videoSources.series[(+localStorage.getItem('result'))].title}`); // <- Kiválasztott sorozat címe
-    alert(`${videoSources.series[(+localStorage.getItem('result'))].episodes[episode].title}`); // <- Kiválasztott sorozat, kiválasztott epizódjának címe
-    alert(`${videoSources.series[(+localStorage.getItem('result'))].episodes[episode].sourceCode}`); // <- Kiválasztott sorozat, kiválasztott epizódjának source code-ja.
+    //alert(`${videoSources.series[(+localStorage.getItem('result'))].title}`); // <- Kiválasztott sorozat címe
+    //alert(`${videoSources.series[(+localStorage.getItem('result'))].episodes[episode].title}`); // <- Kiválasztott sorozat, kiválasztott epizódjának címe
+    //alert(`${videoSources.series[(+localStorage.getItem('result'))].episodes[episode].sourceCode}`); // <- Kiválasztott sorozat, kiválasztott epizódjának source code-ja.
 }
 
 function Mehet(adat){

@@ -1036,8 +1036,8 @@ function Mehet(adat){
 function Vissza(){
     document.getElementById("episodeTitle").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].ti}`;
     document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].de}`;
-    document.getElementById("episodes").style.display="block";
-    document.getElementById("synopsis").innerHTML = "";
+    /*document.getElementById("episodes").style.display="block";*/
+    document.getElementById("synopsis").innerHTML = "<br>";
     window.scrollTo(0,0);
 }
 

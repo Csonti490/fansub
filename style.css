@@ -23,6 +23,7 @@ body {
     background-color: var(--sotetkek);
     color: white;
     min-width: 300px;
+    font-family: 'Kanit', sans-serif;
 }
 main {
     margin: 0 !important;
@@ -153,10 +154,9 @@ h5.cim {
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
 }
-.ppp a {
+.ppp h5 {
     color: white;
     text-decoration: none;
-    font-family: 'Kanit', sans-serif;
 }
 .ppp img{
     border-top: 2.5px solid white;

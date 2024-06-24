@@ -1016,7 +1016,7 @@ function EpisodeChange(n) {
     // Megkeressük a sorozatot a listából
     let series = (+localStorage.getItem('result')), episode = n;
     // Lineáris keresés (most epizódot keresünk) sorozat > epizód
-    if(window.location.pathname.includes("/projektek.html")){//videok
+    if(window.location.pathname.includes("/videok.html")){
         //console.log("VALID URL")
         document.getElementById("episodeTitle").textContent = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].title}`;
         document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;

@@ -123,7 +123,6 @@ div#httr {
 div.szoveg {
     font-family: 'Metrophobic', sans-serif;/*Ez még nem éles*/
 }
-
 /*Posztok*/
 .posztok{
     background-color: var(--sotetlila);
@@ -131,6 +130,10 @@ div.szoveg {
     padding: 16px;
     border-radius: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 30px 0px;
+    margin: 24px auto;
+}
+.posztok p{
+    text-align: justify;
 }
 .posztok .datum {
     text-align: right;
@@ -186,6 +189,12 @@ h5.cim {
 .pbtn:hover::before, .pbtn:hover::after {
     content: " = ";
 }
+
+/*Info*/
+.stpts:nth-child(even){
+    /**/
+}
+
 /*Videok*/
 ul#episodes {
     list-style-type: none;

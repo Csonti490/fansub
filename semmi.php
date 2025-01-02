@@ -7,6 +7,6 @@
 </head>
 <body>
     asd
-    <?php include_once 'index.html';?>
+    <?php include 'index.html';?>
 </body>
 </html>

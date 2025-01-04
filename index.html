@@ -6,11 +6,17 @@
         <meta name="description" content="Rajongói fordítások">
         <meta name="keywords" content="Fansub">
         <meta name="author" content="CsontiXD">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
-        <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="img/logo1.png">
+        <!-- BS 5.0.2 -->
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Ajax -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        
+        <!-- Protest Revolution -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
@@ -51,59 +57,96 @@
         </header>
         <main>
 
-            <div class="container h-50 text-light my-5" id="httr">
-                <div class="p-5 text-center">
-                    <hr class="border border-5 rounded-circle">
-                    <h1 class="w-100 py-3" id="cimecske">Főoldal</h1>
-                    <hr class="border border-5 rounded-circle">
-                </div>
-            </div>
-
-
-            <!--<div class="container my-5">
-                <div class="row m-0 p-0">
-                    <div class="col-12 posztok">
-                        <h3></h3>
-                        <hr>
-                        <p></p>
-                        <p class="datum">Dátum: X</p>
-                    </div>
-                </div>
-            </div>-->
-
-            <div class="container my-5">
-                <div class="row m-0 p-0">
-                    <div class="col-12 posztok">
-                        <h3>Fontos infó</h3>
-                        <hr>
-                        <p>Az egész weboldal még alakulóban van! Sok minden változni fog még.</p>
-                        <p class="datum">Dátum: 2024.06.28.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <hr class="border border-5 rounded-circle">
+                        <h1 class="text-center">Főoldal</h1>
+                        <hr class="border border-5 rounded-circle">
                     </div>
                 </div>
             </div>
 
-            <div class="container my-5">
-                <div class="row m-0 p-0">
-                    <div class="col-12 posztok">
-                        <h3>Magamról</h3>
+            <div class="container lapok col-12 col-md-8">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center">Legfrissebb rész</h3>
                         <hr>
-                        <p>2021.03.14.-én ismerkedtem meg a RWBY sorozattal. Észrevettem, hogy nincsen meg az 5.kötetnek egy része (5-14.rész). Keresgéltem de nem találtam seholsem magyar feliratot. Viszont az alap formázatlan videók fent voltak az interneten, így letöltöttem őket és elkezdtem utána nézegeti, hogy mégis hogyan lehet feliratot eszkábálni egy videóra. Első 2 feliratomat egy kis online "subtitle editor"-al készítettem, de azóta már az Aegisub programmal készítem a feliratokat.</p>
-                        <p>Nem is állítom, hogy a feliratok, amiket készítek azok 100%-osan hibátlanok, de nem egy speedsub. Ezek a fordítások csak egy rajongó által készített munkák és nem a hivatalos magyar feliratok, csak egy lelkes ember szabadidejében lefordított összeeszkábált munkái.</p>
-                        <p></p>
-                        <p>Ez lesz az új oldal, ahol nyomon lehet majd követni, hogy éppen hol tartok ezzel-azzal.</p>
-                        <p class="datum">Dátum: 2024.05.31</p>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <img src="" alt="Nincs kép">
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <h6>Leírás</h6>
+                        <button onclick="ProjectChange(5);window.location.href = 'videok.html';EpisodeChange(8)">Katt</button>
                     </div>
                 </div>
             </div>
-            
+
+            <div class="container lapok col-12 col-md-8">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center">Állapotjelző</h3>
+                        <hr>
+                    </div>
+                    <div class="col-12">
+                        <div id="stts">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container lapok col-12 col-md-8">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center">GY.I.K.</h3>
+                        <hr>
+                    </div>
+                    <div class="col-12">
+                        <p>Mikor lesz kész a(z) "XY" következő része?</p>
+                        <p>A szabadidőmben foglalkozok fordítással. Ha értesítést akarsz kapni, hogy mikor válik elérhetővé egy fordítás, akkor iratkozz fel az <a href="https://indavideo.hu/profile/CsontiXD" target="_blank" title="Indavideo">Indavideo-s profilom</a>ra, hogy kapj értesítést email-en keresztül.</p>
+                        <p>Hibát találtam a(z) feliratban/oldalon, hogyan tudom jelezni?</p>
+                        <p>Az oldalon nincsen csevegési lehetőség, azért a lentebb lévő email címen tudsz nekem írni. Email: skelyxd@gmail.com</p>
+                        <p>Milyen programokat használsz?</p>
+                        <p>Szerkesztésre: <a href="https://aegisub.org/" target="_blank"><i class="fa-solid fa-circle-info"></i> Aegisub</a></p>
+                        <p>Égetésre: <a href="https://handbrake.fr/" target="_blank"><i class="fa-solid fa-circle-info"></i> HandBrake</a></p>
+                        <p>UI: Innen is köszönöm Ezra-nak <a href="https://animegunsub.hu/" target="_blank"><i class="fa-solid fa-circle-info"></i> AnimeGun Sub</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container lapok col-12 col-md-8">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center">Elérhetőségek</h3>
+                        <hr>
+                    </div>
+                    <div class="col-12 col-sm-6 text-center">
+                        <a class="elerhetoseg" href="mailto:skelyxd@gmail.com">
+                            <i class="fs-1 fa-solid fa-envelope"></i>
+                            <p>skelyxd@gmail.com</p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 text-center">
+                        <a class="elerhetoseg" href="https://indavideo.hu/profile/CsontiXD" target="_blank">
+                            <i class="fs-1 fa-solid fa-film"></i>
+                            <p>Indavideo profilom</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
         </main>
         <footer class="text-center">
-            Az oldal jelenlegi verziója: 2.0
+            Az oldal jelenlegi verziója: 3.01.02
         </footer>
     </body>
+    <!-- BS 5.0.2 -->
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS -->
     <script src="main.js"></script>
+    <script src="allapot.js"></script>
+    <script src="adatbazis.js"></script>
 </html>
 <script>
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))

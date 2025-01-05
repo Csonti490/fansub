@@ -56,32 +56,3 @@ if(info){
     }
 }
 /* =-= =-= =-= =-= =-= */
-
-
-
-
-
-/*
-
-    position: relative;
-    .pgomb {
-    z-index: 1;
-    position: absolute;
-    bottom: 50%;
-    font-size: 50px;
-    line-height: 50px;
-    }
-    <p class="p-0 m-0 text-center pgomb"><i class="fa-regular fa-circle-play"></i></p>
-
-var pictures = ['1.png','2.png','3.jpg','4.jpg','5.jpg','6.jpg'];
-
-var kephely = document.getElementById("httr");
-if(kephely){
-    window.onload = (event) => {
-        Keptolt();
-    };
-    function Keptolt(){
-        var rand = Math.floor(Math.random() * pictures.length);
-        kephely.style.backgroundImage = "url(img/bgc/kep"+pictures[rand]+")";
-    }
-}*/

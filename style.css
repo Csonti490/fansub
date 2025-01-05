@@ -19,6 +19,9 @@
 *{
     box-sizing: border-box;
 }
+.text-justify {
+    text-align: justify !important;
+}
 body {
     background-color: var(--sotetkek);
     color: white;
@@ -100,14 +103,17 @@ a.linkek {
 /*Projekt képek*/
 .pdoboz {
     border: 1px solid red;
+    overflow: hidden;
 }
 img.pkepek {
     aspect-ratio: 2/3;
     object-fit: fill;
+    transition: ease-in-out 0.5s;
 }
 img.pkepek:hover {
-    transition: all 0.5s;
+    transition: ease-in-out 0.5s;
     filter: grayscale(75%);
+    animation: ani_nagyit 0.5s ease-in-out;
 }
 .pdoboz h5 {
     height: 60px;
@@ -126,8 +132,9 @@ img.pkepek:hover {
 }
 
 .elerhetoseg:hover {
-    animation: 1s ani_nagyit ease-in-out;
     display: block;
+    transform: scale(1.5);
+    transition: ease-in-out 0.5s;
 }
 
 @keyframes ani_nagyit {

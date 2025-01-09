@@ -14,6 +14,8 @@
     --szin2: rgb(70,25,84); /* fejlec,lablec */
     --szin3: rgb(11,15,25); /* ajanlo */
     --szin4: rgb(35,38,39); /* szurke regist/login */
+
+    --szurkefekete: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 50%, rgba(0,0,0,1) 100%);
 }
 /*Alap*/
 *{
@@ -102,7 +104,7 @@ a.linkek {
 
 /*Projekt képek*/
 .pdoboz {
-    border: 1px solid red;
+    border: 1px solid white;
     overflow: hidden;
 }
 img.pkepek {
@@ -113,7 +115,8 @@ img.pkepek {
 img.pkepek:hover {
     transition: ease-in-out 0.5s;
     filter: grayscale(75%);
-    animation: ani_nagyit 0.5s ease-in-out;
+    transform: scale(1.125);
+    /*animation: ani_nagyit 0.5s ease-in-out;*/
 }
 .pdoboz h5 {
     height: 60px;
@@ -123,6 +126,7 @@ img.pkepek:hover {
     text-align: center;
     position: relative;
     font-size: clamp(12px, 5vw, 24px);
+    background: var(--szurkefekete);
 }
 .lapok {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75));
@@ -130,10 +134,9 @@ img.pkepek:hover {
     padding: 24px;
     border-radius: 24px;
 }
-
 .elerhetoseg:hover {
     display: block;
-    transform: scale(1.5);
+    transform: scale(1.25);
     transition: ease-in-out 0.5s;
 }
 
@@ -146,14 +149,6 @@ img.pkepek:hover {
     }
     100% {
         transform: scale(1);
-    }
-}
-@keyframes ani_megjelenik {
-    0% {
-
-    }
-    100% {
-
     }
 }
 
@@ -202,4 +197,16 @@ div#leiras, div#soriinfo {
     background-color: var(--vilagosszurke);
     display: block;
     margin: 16px auto;
+}
+
+button {
+    background: var(--szurkefekete);
+    color: white;
+    transition: ease-in-out 0.25s;
+}
+button:hover {
+    background: var(--szurkefekete);
+    color: white;
+    filter: invert(100%);
+    transition: ease-in-out 0.25s;
 }

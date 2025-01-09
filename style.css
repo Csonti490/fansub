@@ -199,12 +199,12 @@ div#leiras, div#soriinfo {
     margin: 16px auto;
 }
 
-button {
+.pdoboz button {
     background: var(--szurkefekete);
     color: white;
     transition: ease-in-out 0.25s;
 }
-button:hover {
+.pdoboz button:hover {
     background: var(--szurkefekete);
     color: white;
     filter: invert(100%);

@@ -15,7 +15,9 @@
     --szin3: rgb(11,15,25); /* ajanlo */
     --szin4: rgb(35,38,39); /* szurke regist/login */
 
-    --szurkefekete: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 50%, rgba(0,0,0,1) 100%);
+    --fszf: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 50%, rgba(0,0,0,1) 100%); /* fekete-szürke-fekete */
+    --szfsz: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(255,255,255,1) 50%, rgba(65,65,65,1) 100%); /* szürke-fehér-szürke */
+
 }
 /*Alap*/
 *{
@@ -102,22 +104,30 @@ a.linkek {
     cursor: pointer;
 }
 
-/*Projekt képek*/
+/*Projekt képek és feliratok*/
 .pdoboz {
     border: 1px solid white;
     overflow: hidden;
 }
-img.pkepek {
+img.pkep {
     aspect-ratio: 2/3;
     object-fit: fill;
     transition: ease-in-out 0.5s;
 }
-img.pkepek:hover {
+img.pkep:hover {
     transition: ease-in-out 0.5s;
     filter: grayscale(75%);
     transform: scale(1.125);
-    /*animation: ani_nagyit 0.5s ease-in-out;*/
 }
+img.pkep + h5 {
+    transition: ease-in-out 0.5s;
+}
+img.pkep:hover + h5{
+    background: var(--szfsz);
+    transition: ease-in-out 0.5s;
+    color: black;
+}
+
 .pdoboz h5 {
     height: 60px;
     display: flex;
@@ -126,9 +136,9 @@ img.pkepek:hover {
     text-align: center;
     position: relative;
     font-size: clamp(12px, 5vw, 24px);
-    background: var(--szurkefekete);
+    background: var(--fszf);
 }
-.lapok {
+.lap {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75));
     margin: 16px auto;
     padding: 24px;
@@ -199,14 +209,20 @@ div#leiras, div#soriinfo {
     margin: 16px auto;
 }
 
-.pdoboz button {
-    background: var(--szurkefekete);
+.gomb {
+    background: var(--fszf);
     color: white;
+    font-weight: bold;
     transition: ease-in-out 0.25s;
 }
-.pdoboz button:hover {
-    background: var(--szurkefekete);
-    color: white;
-    filter: invert(100%);
+.gomb:hover {
+    background: var(--szfsz);
+    color: black;
+    font-weight: bold;
     transition: ease-in-out 0.25s;
 }
+
+
+/*animation: ani_nagyit 0.5s ease-in-out;*/
+/*font-weight: bold;*/
+/*filter: invert(100%);*/

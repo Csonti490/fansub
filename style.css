@@ -127,7 +127,6 @@ img.pkep:hover + h5{
     transition: ease-in-out 0.5s;
     color: black;
 }
-
 .pdoboz h5 {
     height: 60px;
     display: flex;
@@ -138,18 +137,21 @@ img.pkep:hover + h5{
     font-size: clamp(12px, 5vw, 24px);
     background: var(--fszf);
 }
+/*Bejegyzések*/
 .lap {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75));
     margin: 16px auto;
     padding: 24px;
     border-radius: 24px;
 }
+/**/
 .elerhetoseg:hover {
     display: block;
     transform: scale(1.25);
     transition: ease-in-out 0.5s;
 }
 
+/*Animációk*/
 @keyframes ani_nagyit {
     0% {
         transform: scale(1);
@@ -187,6 +189,7 @@ ul#episodes li.target:hover {
     background-color: white;
     font-weight: bold;
 }
+/*
 div.synopsis {
     color: white;
 }
@@ -208,7 +211,14 @@ div#leiras, div#soriinfo {
     display: block;
     margin: 16px auto;
 }
+*/
+/*kép*/
+.sorikep {
+    aspect-ratio: 2/3;
+    object-fit: fill;
+}
 
+/*Gombok - Főoldal,Projektek*/
 .gomb {
     background: var(--fszf);
     color: white;

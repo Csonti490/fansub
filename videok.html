@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
         <!-- CSS -->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="style3.css">
         <!-- Ajax -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -59,24 +61,35 @@
         </header>
         <main>
 
-            <button onclick="location.href='projektek.html'">Vissza a <strong>Projektek</strong> oldalra</button>
+            <button onclick="location.href='projektek.html'" class="gomb d-block mx-auto my-3">Vissza a Projektek oldalra</button>
 
             <div class="container">
                 <div class="row">
                     <div class="col-12 border">
-                        <h1 id="pn" class="text-center">Jelenleg nincsen itt semmi tartalom</h1>
+                        <h1 id="pn" class="text-center">RWBY 5. fejezet</h1>
                         <h3 id="episodeTitle" class="text-center">
-
+                            Sorozat Szinopszis
                         </h3>
-                        <div class="container row col-12 m-0 p-0" id="video">
+                        <div class="container row m-0 p-0" id="video">
                             
                         </div>
                         <div class="text-center">
                             <ul id="episodes" class="my-3">
-                                
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
+                                <li class="target gomb" onclick="EpisodeChange(1)">1. rész</li>
                             </ul>
                         </div>
-                        <div id="synopsis">
+                        <div class="text-justify" id="synopsis">
                             
                         </div>
                     </div>
@@ -91,3 +104,24 @@
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </html>
+
+<!--
+
+title: "RWBY 5. fejezet",
+            ti: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_5 - Szinopszis
+            de: `<img src="img/rwby_v5.jpg" onerror="KepHiba(this)" class="d-block mx-auto kepek"><div id="soriinfo">A <span class="meaning" title=" (RNJR) Ruby Rose, Nora Valkyrie, Jaune Arc, Lie Ren">RNJR</span> csapat és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben.<br>E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.<br><br>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.fejezet.</div>`,
+
+-->
+<!--
+
+
+<div class="col-12 col-md-4 col-lg-3">
+                                <img src="img/rwby_v5.jpg" onerror="KepHiba(this)" class="d-block mx-auto sorikep w-50 w-md-75">
+                            </div>
+                            <div class="col-12 col-md-8 col-lg-9 text-justify my-auto border p-3" id="soriinfo">
+                                <p>A RNJR csapat (Ruby Rose, Nora Valkyrie, Jaune Arc, Lie Ren) és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben. E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.</p>
+                                <p>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.fejezet.</p>
+                            </div>
+
+
+-->

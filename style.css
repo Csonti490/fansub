@@ -19,7 +19,7 @@
     --szfsz: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(255,255,255,1) 50%, rgba(65,65,65,1) 100%); /* szürke-fehér-szürke */
 
 }
-/*Alap*/
+/*Mindenhol -> Alap*/
 *{
     box-sizing: border-box;
 }
@@ -88,7 +88,7 @@ a.linkek {
     text-decoration: none !important;
 }
 
-/*Felugró ablak*/
+/*Mindehol -> Felugró ablak*/
 .modal-body {
     background-color: var(--sotetkek);
     text-align: justify;
@@ -104,7 +104,7 @@ a.linkek {
     cursor: pointer;
 }
 
-/*Projekt képek és feliratok*/
+/*Projektek -> Projekt képek és feliratok*/
 .pdoboz {
     border: 1px solid white;
     overflow: hidden;
@@ -137,31 +137,39 @@ img.pkep:hover + h5{
     font-size: clamp(12px, 5vw, 24px);
     background: var(--fszf);
 }
-/*Bejegyzések*/
+/*Projektek -> Sorozatok képei*/
+.sorikep {
+    aspect-ratio: 2/3;
+    object-fit: fill;
+}
+
+/*Mindenhol -> Gombok*/
+.gomb {
+    background: var(--fszf);
+    color: white;
+    font-weight: bold;
+    /*transition: ease-in-out 0.25s;*/
+}
+.gomb:hover {
+    background: var(--szfsz);
+    color: black;
+    font-weight: bold;
+    /*transition: ease-in-out 0.25s;*/
+}
+
+/*Mindehol -> Bejegyzések*/
 .lap {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75));
     margin: 16px auto;
     padding: 24px;
     border-radius: 24px;
 }
-/**/
+/*Infó -> elérhetőségek */
 .elerhetoseg:hover {
-    display: block;
+    /*display: block;
     transform: scale(1.25);
-    transition: ease-in-out 0.5s;
-}
-
-/*Animációk*/
-@keyframes ani_nagyit {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1);
-    }
+    transition: ease-in-out 0.5s;*/
+    text-shadow: 1px 1px 0.5px rgb(255, 255, 255);
 }
 
 /*Videok*/
@@ -212,27 +220,19 @@ div#leiras, div#soriinfo {
     margin: 16px auto;
 }
 */
-/*kép*/
-.sorikep {
-    aspect-ratio: 2/3;
-    object-fit: fill;
-}
 
-/*Gombok - Főoldal,Projektek*/
-.gomb {
-    background: var(--fszf);
-    color: white;
-    font-weight: bold;
-    transition: ease-in-out 0.25s;
+/*Animációk*/
+@keyframes ani_nagyit {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
-.gomb:hover {
-    background: var(--szfsz);
-    color: black;
-    font-weight: bold;
-    transition: ease-in-out 0.25s;
-}
-
-
 /*animation: ani_nagyit 0.5s ease-in-out;*/
 /*font-weight: bold;*/
 /*filter: invert(100%);*/

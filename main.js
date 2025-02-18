@@ -2,8 +2,8 @@
 var Projects = [
     {
         title: "RWBY",
-        episode: "5.évad 9.rész",
-        status: "Lektorálás alatt"
+        episode: "5.évad 10.rész",
+        status: "Fordítás alatt"
     },
     {
         title: "RWBY - World of Remnant",

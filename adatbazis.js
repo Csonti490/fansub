@@ -346,7 +346,7 @@ var videoSources = {
                 },
                 {
                     title: "A Perfect Storm / A Tökéletes Vihar",
-                    sourceCode: `<iframe class"w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/ShN2SA7C#NOIKAo57HJLWEYi7QUaSON0Av7WIb5e6azBrIy9yXLY" allowfullscreen ></iframe>`,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/ShN2SA7C#NOIKAo57HJLWEYi7QUaSON0Av7WIb5e6azBrIy9yXLY" allowfullscreen ></iframe>`,
                     desc: `<p>9. rész rövid leírása</p><p>Raven táborát Cinder bandája megtámadja, miközben a Tavasz Hajadon után kutatnak. Ilia hagy egy levelet Blake-nek, amelyben arra kéri, hogy találkozzon vele titokban.</p></div>`
                 },
                 {

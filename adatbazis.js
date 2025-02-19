@@ -885,7 +885,7 @@ var videoSources = {
         {
             title: "RWBY Beyond",
             ti: "Szinopszis", // Nothing
-            de: `<div class="col-12 col-md-4 col-lg-3"><img src="img/projects/rwby_beyond.png" onerror="KepHiba(this)" class="d-block mx-auto sorikep w-50 w-md-75"></div><div class="col-12 col-md-8 col-lg-9 text-justify my-auto border p-3" id="soriinfo">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</div>`,
+            de: `<div class="col-12 col-md-4 col-lg-3"><img src="img/projects/rwby_beyond.png" onerror="KepHiba(this)" class="d-block mx-auto sorikep w-50 w-md-75"></div><div class="col-12 col-md-8 col-lg-9 text-justify my-auto border p-3" id="soriinfo">Stories about what is happening in Vacuo and the Ever After following Volume 9.</div>`,
             episodes: [ // Nothing
                 {
                     title: "Jr. Detectives",
@@ -904,6 +904,53 @@ var videoSources = {
                 },
                 {
                     title: "Boba",
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<p>6. rész rövid leírása</p><p>Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></div>`
+                }
+            ]
+        },
+        {
+            title: "RWBY Evermorrow",
+            ti: "Szinopszis", // Nothing
+            de: `<div class="col-12 col-md-4 col-lg-3"><img src="img/projects/rwby_beyond.png" onerror="KepHiba(this)" class="d-block mx-auto sorikep w-50 w-md-75"></div><div class="col-12 col-md-8 col-lg-9 text-justify my-auto border p-3" id="soriinfo">??</div>`,
+            episodes: [ // Nothing
+                {
+                    title: "1",
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<p>6. rész rövid leírása</p><p>Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></div>`
+                },
+                {
+                    title: "2",
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<p>6. rész rövid leírása</p><p>Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></div>`
+                },
+                {
+                    title: "3",
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<p>6. rész rövid leírása</p><p>Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></div>`
+                },
+                {
+                    title: "4",
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<p>6. rész rövid leírása</p><p>Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></div>`
+                },
+                {
+                    title: "5",
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<p>6. rész rövid leírása</p><p>Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></div>`
+                },
+                {
+                    title: "6",
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<p>6. rész rövid leírása</p><p>Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></div>`
+                },
+                {
+                    title: "7",
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
+                    desc: `<p>6. rész rövid leírása</p><p>Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></div>`
+                },
+                {
+                    title: "8",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rw11nCaB#g5t3hRAybdFLr2cX3t7Ic3cYb6j8emhCtRRt_4W9z7k" allowfullscreen ></iframe>`,
                     desc: `<p>6. rész rövid leírása</p><p>Egy fiatal fiú találkozik egy titokzatos harcossal, aki messziről védi faluját.</p></div>`
                 }
@@ -997,9 +1044,12 @@ function ProjectChange(n) {
             localStorage.setItem('result', 18); // RWBY Chibi 4
             break;
         case 19:
-            localStorage.setItem('result', 18); // RWBY Beyond
+            localStorage.setItem('result', 19); // RWBY Beyond
             break;
-        case 19:
+        case 20:
+            localStorage.setItem('result', 20); // RWBY Evermorrow
+            break;
+        case 21:
             localStorage.setItem('result', 20); // Default
             break;
     }

@@ -57,7 +57,7 @@
                                 <a class="nav-link" href="projektek.html"><i class="fa-solid fa-film"></i> Projektek</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="info.html"><i class="fa-solid fa-circle-info"></i></i> Infó</a>
+                                <a class="nav-link" href="info.html"><i class="fa-solid fa-circle-info"></i> Infó</a>
                             </li>
                         </ul>
                     </div>
@@ -68,7 +68,7 @@
 
             <button onclick="location.href='projektek.html'" class="gomb d-block mx-auto my-3">Vissza a Projektek oldalra</button>
 
-            <div class="container">
+            <!--<div class="container">
                 <div class="row">
                     <div class="col-12 border">
                         <h1 id="pn" class="text-center">Valami hiba történt</h1>
@@ -88,11 +88,48 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center" id="projectTitle">Valami hiba történt</h1><!--Sorozatcím-->
+                        <h3 class="text-center" id="episodeTitle"><i class="fa-regular fa-face-frown-open"></i></h3><!--Epizódcím-->
+                        <div class="container">
+                            <!--Sorozat Szinopszis-->
+                            <div class="row" id="szinopszisDiv">
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-3">
+                                    <img src="img/confused.png" onerror="KepHiba(this)" class="d-block mx-auto img-fluid w-50 w-sm-100" id="sorikep">
+                                </div>
+                                <div class="col-12 col-sm-8 col-md-8 col-lg-9 my-auto text-justify border p-3" id="soriinfo">
+                                    <h5 class="text-center m-0">-=- ??? -=-</h5>
+                                </div>
+                            </div>
+                            <!--Videó-->
+                            <div class="row col-12 m-0 p-0 d-none" id="videoDiv">
+                                <div class="col-12">
+                                    <iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="" allowfullscreen id="vid"></iframe>
+                                </div>
+                            </div>
+                            <!--Epizódok-->
+                            <div class="row col-12 m-0 p-0 text-center">
+                                <ul id="episodes" class="my-3 m-0 p-0 overflow-hidden d-inline-block">
+                                    
+                                </ul>
+                            </div>
+                            <!--Rész rövid leírása-->
+                            <div class="row col-12 m-0 p-0 d-none" id="desscriptionDiv">
+                                <div class="col-12" id="episodeDescription">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
-        <footer class="text-center">
-            Az oldal jelenlegi verziója: 3.01.04
+        <footer class="text-center footer m-0">
+            <p class="m-0">Az oldal jelenlegi verziója: 4.01.01</p>
         </footer>
     </body>
 </html>

@@ -197,31 +197,30 @@ footer {
 /*Videok*/
 ul#episodes {
     list-style-type: none;
-    margin: 0;
+    /*margin: 0;
     padding: 0;
     overflow: hidden;
-    display: inline-block;
+    display: inline-block;*/
 }
 ul#episodes li.target {
     cursor: pointer;
-    display: inline-block;
-    color: white;
-    text-align: center;
+    /*display: inline-block;*/
+    /*color: white;*/
+    /*text-align: center;*/
     padding: 5px;
     text-decoration: none;
     width: 100px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 5px 5px;
-    
 }
-ul#episodes li.target:hover {
+/*ul#episodes li.target:hover {
     color: black;
     background-color: white;
     font-weight: bold;
-}
-#load,#video{
+}*/
+/*#load,#video{
     box-sizing: border-box;
-}
+}*/
 /*
 div.synopsis {
     color: white;
@@ -315,3 +314,22 @@ div#leiras, div#soriinfo {
 /*animation: ani_nagyit 0.5s ease-in-out;*/
 /*font-weight: bold;*/
 /*filter: invert(100%);*/
+table#frissitesek, table#frissitesek tr, table#frissitesek th, table#frissitesek td {
+    border-collapse: collapse;
+    border: 1px solid white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+table#frissitesek th {
+    color: var(--k);
+    background-color: white;
+    border: 1px solid var(--k);
+}
+table#frissitesek td:first-child{
+    text-align: left;
+}
+table#frissitesek td:last-child{
+    text-align: right;
+}

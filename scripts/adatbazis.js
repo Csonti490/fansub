@@ -734,7 +734,8 @@ var videoSources = {
         {
             title: "RWBY: World of Remnant",
             ti: "Sorozat Szinopszis", // https://tvtropes.org/pmwiki/pmwiki.php/Characters/RWBYWorldOfRemnant
-            de: `<div class="col-12 col-md-4 col-lg-3"><img src="img/projects/rwby_world_of_remnant.jpg" onerror="KepHiba(this)" class="d-block mx-auto sorikep w-50 w-md-75"></div><div class="col-12 col-md-8 col-lg-9 text-justify my-auto border p-3" id="soriinfo">Remnant világa egy olyan hely, mely tele van mítikus mesékkel, veszélyes szörnyekkel, rejtett fenyegetésekkel és titokzatos történetekkel. Míg Remnant történelme hösők és bűnösök hőstetteit, valamint hétköznapibb emberek életét megörökítette, az ősi és titkos történelem nyomai szétszórva rejlenek a világ számos gyermekmeséjében. Ez az oldal a történelem és a legenda szereplőinek szól, mesék, amelyek nagyobb igazságokat rejtenek, és olyan élőlényekről szól, amelyekről a világ talán nem is tudja, hogy a mítoszokon kívül is léteznek.</div>`,
+            im: `img/projects/rwby_world_of_remnant.jpg`,
+            de: `<p class="m-0">Remnant világa egy olyan hely, mely tele van mítikus mesékkel, veszélyes szörnyekkel, rejtett fenyegetésekkel és titokzatos történetekkel. Míg Remnant történelme hösők és bűnösök hőstetteit, valamint hétköznapibb emberek életét megörökítette, az ősi és titkos történelem nyomai szétszórva rejlenek a világ számos gyermekmeséjében. Ez az oldal a történelem és a legenda szereplőinek szól, mesék, amelyek nagyobb igazságokat rejtenek, és olyan élőlényekről szól, amelyekről a világ talán nem is tudja, hogy a mítoszokon kívül is léteznek.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=-1
                 {
                     title: "Dust / Por",

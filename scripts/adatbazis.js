@@ -6,7 +6,7 @@ Ha esetleg ezen az oldalon (+egyéb másik hozzám tartozó platformos profiljai
 */
 
 /* |=| Adatbázis |=| */
-var iimmgg = `<img src="img/novideo.jpg" alt="Nincs elérhető videó" class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;">`;
+var iimmgg = `img/novideo.jpg`;
 var videoSources = {
     series: [
         {
@@ -822,6 +822,7 @@ var videoSources = {
         {
             title: "RWBY: Fairy Tales", // +(szino.) https://rwby.fandom.com/wiki/RWBY:_Fairy_Tales
             ti: "Sorozat Szinopszis", // ep+: https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RWBYFairyTales
+            im: ``,
             de: `<div class="col-12 col-md-4 col-lg-3"><img src="img/projects/rwby_fairy_tales.jpg" onerror="KepHiba(this)" class="d-block mx-auto sorikep w-50 w-md-75"></div><div class="col-12 col-md-8 col-lg-9 text-justify my-auto border p-3" id="soriinfo">Egy minisorozat, amely Renmant leghíresebb tündérmeséit kelti életre soha nem látott formában.<br><br>„<i>Világunknak hosszú titokzatos múltú története van. Bár lehet, hogy nem tudjuk meg a kívánt válaszokat. Vannak történeteink; horror- és hősies történetek, amelyek többet árulnak el, mit amit tudunk. És végül nem is fog számítani se a múltunk, se a jövőnk, de egy dolog biztos: a történetek fennmaradnak.</i>”<br><span style="float:right;">- Ozpin Professzor</span>&nbsp;</div>`,
             episodes: [ // https://www.imdb.com/title/tt15830868/episodes?season=1&ref_=tt_eps_sn_1
                 {
@@ -1076,7 +1077,20 @@ function EpisodeChange(n) {
         document.getElementById("episodeTitle").textContent = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].title}`;
         document.getElementById("szinopszisDiv").classList.add("d-none");
         document.getElementById("videoDiv").classList.remove("d-none");
-        document.getElementById("vid").src = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
+        ///////////////
+        //document.getElementById("vid").src = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
+        ///////////////
+        if(`${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}` == `img/novideo.jpg`){
+            document.getElementById("vid").classList.add("d-none");
+            document.getElementById("vidalt").classList.remove("d-none");
+            document.getElementById("vidalt").src = `img/novideo.jpg`;
+        }else{
+            document.getElementById("vid").classList.remove("d-none");
+            document.getElementById("vidalt").classList.add("d-none");
+            document.getElementById("vid").src = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
+        }
+
+        ///////////////
         document.getElementById("descriptionDiv").classList.remove("d-none");
         document.getElementById("episodeDescription").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
         document.getElementById("episodeDescription").innerHTML += `<button class="gomb d-block mx-auto my-3" id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;

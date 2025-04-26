@@ -6,7 +6,7 @@ Ha esetleg ezen az oldalon (+egyéb másik hozzám tartozó platformos profiljai
 */
 
 /* |=| Adatbázis |=| */
-var iimmgg = `img/novideo.jpg`;
+var iimmgg = `../img/novideo.jpg`;
 var videoSources = {
     series: [
         {
@@ -1080,10 +1080,10 @@ function EpisodeChange(n) {
         ///////////////
         //document.getElementById("vid").src = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
         ///////////////
-        if(`${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}` == `img/novideo.jpg`){
+        if(`${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}` == `../img/novideo.jpg`){
             document.getElementById("vid").classList.add("d-none");
             document.getElementById("vidalt").classList.remove("d-none");
-            document.getElementById("vidalt").src = `img/novideo.jpg`;
+            document.getElementById("vidalt").src = `../img/novideo.jpg`;
         }else{
             document.getElementById("vid").classList.remove("d-none");
             document.getElementById("vidalt").classList.add("d-none");

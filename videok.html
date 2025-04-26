@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hu" dir="ltr">
     <head>
-        <script src="scripts/adatbazis.js"></script>
+        <script src="adatbazis.js"></script>
         <!-- Meta -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,6 @@
         <!-- JS -->
         <script src="scripts/main.js" defer></script>
         <script src="scripts/allapot.js" defer></script>
-        
         <!-- Ajax -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -65,23 +64,20 @@
                 </div>
             </nav>
         </header>
-        <!--<main  class="my-3">
+        <main class="my-3">
+
             <button onclick="location.href='projektek.html'" class="gomb d-block mx-auto my-3">Vissza a Projektek oldalra</button>
+
             <div class="container">
                 <div class="row">
                     <div class="col-12 border">
                         <h1 id="pn" class="text-center">Valami hiba történt</h1>
                         <h3 id="episodeTitle" class="text-center">
-                            <i class="fa-regular fa-face-frown-open"></i>
+                            : (
                         </h3>
-                        <div class="container row m-0 p-0 d-none" id="video">
+                        <div class="container row m-0 p-0" id="video">
                             <img src="img/novideo.jpg" alt="Nincs elérhető videó" class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;">
                         </div>
-                        <div class="container row m-0 p-0" id="load">
-                            <p>Az oldal betöltése folyamatban...</p>
-                            <br>
-                            <i class="fa-solid fa-cog fa-spin"></i>
-                        </div>
                         <div class="text-center">
                             <ul id="episodes" class="my-3">
 
@@ -93,87 +89,10 @@
                     </div>
                 </div>
             </div>
-        </main>-->
 
-        <main class="my-3">
-            <button onclick="location.href='projektek.html'" class="gomb d-block mx-auto my-3">Vissza a Projektek oldalra</button>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 border">
-                        <h1 id="pn" class="text-center">Valami hiba történt</h1>
-                        <h3 id="episodeTitle" class="text-center">
-                            <i class="fa-regular fa-face-frown-open"></i>
-                        </h3>
-                        <div id="video">
-                            <img src="img/novideo.jpg" alt="Nincs elérhető videó" class="w-75 d-block mx-auto invisible" style="aspect-ratio: 16/9;" id="vid">
-                            <div id="loadText">
-                                <i class="fa-solid fa-cog fa-spin" ></i>
-                                <p>Betöltés...</p>
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <ul id="episodes" class="my-3">
-                            </ul>
-                        </div>
-                        <div class="text-justify" id="synopsis">
-                        </div>
-                    </div>
-                </div>
-            </div>
         </main>
-        
-        <!--<main  class="my-3">
-            <button onclick="location.href='projektek.html'" class="gomb d-block mx-auto my-3">Vissza a Projektek oldalra</button>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 border">
-                        <h1 id="pn" class="text-center">Valami hiba történt</h1>
-                        <h3 id="episodeTitle" class="text-center">
-                            <i class="fa-regular fa-face-frown-open"></i>
-                        </h3>
-                        <div class="" id="video">
-                            <img src="img/novideo.jpg" alt="Nincs elérhető videó" class="w-75 d-block mx-auto invisible" style="aspect-ratio: 16/9;" id="vid">
-                            <i class="fa-solid fa-heart-crack" id="load"></i>
-                        </div>
-                        <div class="text-center">
-                            <ul id="episodes" class="my-3">
-
-                            </ul>
-                        </div>
-                        <div class="text-justify" id="synopsis">
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>-->
-
-        <footer class="text-center footer m-0">
-            <p class="m-0">Az oldal jelenlegi verziója: 4.01.01</p>
+        <footer class="text-center">
+            Az oldal jelenlegi verziója: 3.01.04
         </footer>
     </body>
 </html>
-<script>
-    /*var l = document.getElementById("load");
-    var c = document.getElementById("vid");
-
-    window.onload = function() {
-        setTimeout(function() {
-            l.classList.add("invisible");
-            c.classList.remove("invisible");
-        }, 500);
-    };*/
-    var l = document.getElementById("loadText"); // A load szöveges div
-    var c = document.getElementById("vid"); // A videó kép
-
-window.onload = function() {
-    setTimeout(function() {
-        // A betöltő szöveg és ikon eltüntetése
-        l.classList.add("invisible");
-
-        // A videó kép megjelenítése
-        c.classList.remove("invisible");
-    }, 1500); // 500 ms után történik a váltás
-};
-
-</script>

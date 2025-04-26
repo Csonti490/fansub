@@ -978,7 +978,7 @@ var videoSources = {
         {
             title: "Nincs elérhető információ",
             ti: "", // Nothing
-            de: `<img src="img/noposter.jpg" onerror="KepHiba(this)" class="d-block mx-auto w-50 w-md-75">`,
+            de: `<p class="m-0">-=- ??? -=-</p>`,
             episodes: [ // Nothing
             ]
         },

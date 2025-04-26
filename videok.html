@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hu" dir="ltr">
     <head>
-        <script src="adatbazis.js"></script>
+        <script src="scripts/adatbazis.js"></script>
         <!-- Meta -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +9,22 @@
         <meta name="keywords" content="Fansub">
         <meta name="author" content="CsontiXD">
         <link rel="icon" type="image/x-icon" href="img/logo1.png">
-        <!-- BS 5.0.2 -->
-        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+        <!-- BS 5.2.3 -->
+        <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.css">
+        <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
         <!-- CSS -->
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="style2.css">
-        <link rel="stylesheet" href="style3.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/style2.css">
+        <link rel="stylesheet" href="styles/style3.css">
+        <link rel="stylesheet" href="styles/style4.css">
+        <link rel="stylesheet" href="styles/style5.css">
+        <!-- JS -->
+        <script src="scripts/main.js" defer></script>
+        <script src="scripts/allapot.js" defer></script>
+        
         <!-- Ajax -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
         
         <!-- Protest Revolution -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,19 +65,22 @@
                 </div>
             </nav>
         </header>
-        <main>
-
+        <!--<main  class="my-3">
             <button onclick="location.href='projektek.html'" class="gomb d-block mx-auto my-3">Vissza a Projektek oldalra</button>
-
             <div class="container">
                 <div class="row">
                     <div class="col-12 border">
                         <h1 id="pn" class="text-center">Valami hiba történt</h1>
                         <h3 id="episodeTitle" class="text-center">
-                            : (
+                            <i class="fa-regular fa-face-frown-open"></i>
                         </h3>
-                        <div class="container row m-0 p-0" id="video">
+                        <div class="container row m-0 p-0 d-none" id="video">
                             <img src="img/novideo.jpg" alt="Nincs elérhető videó" class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;">
+                        </div>
+                        <div class="container row m-0 p-0" id="load">
+                            <p>Az oldal betöltése folyamatban...</p>
+                            <br>
+                            <i class="fa-solid fa-cog fa-spin"></i>
                         </div>
                         <div class="text-center">
                             <ul id="episodes" class="my-3">
@@ -84,32 +93,87 @@
                     </div>
                 </div>
             </div>
+        </main>-->
 
+        <main class="my-3">
+            <button onclick="location.href='projektek.html'" class="gomb d-block mx-auto my-3">Vissza a Projektek oldalra</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 border">
+                        <h1 id="pn" class="text-center">Valami hiba történt</h1>
+                        <h3 id="episodeTitle" class="text-center">
+                            <i class="fa-regular fa-face-frown-open"></i>
+                        </h3>
+                        <div id="video">
+                            <img src="img/novideo.jpg" alt="Nincs elérhető videó" class="w-75 d-block mx-auto invisible" style="aspect-ratio: 16/9;" id="vid">
+                            <div id="loadText">
+                                <i class="fa-solid fa-cog fa-spin" ></i>
+                                <p>Betöltés...</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <ul id="episodes" class="my-3">
+                            </ul>
+                        </div>
+                        <div class="text-justify" id="synopsis">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
-        <footer class="text-center">
-            Az oldal jelenlegi verziója: 3.01.04
+        
+        <!--<main  class="my-3">
+            <button onclick="location.href='projektek.html'" class="gomb d-block mx-auto my-3">Vissza a Projektek oldalra</button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 border">
+                        <h1 id="pn" class="text-center">Valami hiba történt</h1>
+                        <h3 id="episodeTitle" class="text-center">
+                            <i class="fa-regular fa-face-frown-open"></i>
+                        </h3>
+                        <div class="" id="video">
+                            <img src="img/novideo.jpg" alt="Nincs elérhető videó" class="w-75 d-block mx-auto invisible" style="aspect-ratio: 16/9;" id="vid">
+                            <i class="fa-solid fa-heart-crack" id="load"></i>
+                        </div>
+                        <div class="text-center">
+                            <ul id="episodes" class="my-3">
+
+                            </ul>
+                        </div>
+                        <div class="text-justify" id="synopsis">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>-->
+
+        <footer class="text-center footer m-0">
+            <p class="m-0">Az oldal jelenlegi verziója: 4.01.01</p>
         </footer>
     </body>
-    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js"></script>
 </html>
-<!--
+<script>
+    /*var l = document.getElementById("load");
+    var c = document.getElementById("vid");
 
-title: "RWBY 5. fejezet",
-            ti: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_5 - Szinopszis
-            de: `<img src="img/rwby_v5.jpg" onerror="KepHiba(this)" class="d-block mx-auto kepek"><div id="soriinfo">A <span class="meaning" title=" (RNJR) Ruby Rose, Nora Valkyrie, Jaune Arc, Lie Ren">RNJR</span> csapat és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben.<br>E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.<br><br>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.fejezet.</div>`,
+    window.onload = function() {
+        setTimeout(function() {
+            l.classList.add("invisible");
+            c.classList.remove("invisible");
+        }, 500);
+    };*/
+    var l = document.getElementById("loadText"); // A load szöveges div
+    var c = document.getElementById("vid"); // A videó kép
 
--->
-<!--
+window.onload = function() {
+    setTimeout(function() {
+        // A betöltő szöveg és ikon eltüntetése
+        l.classList.add("invisible");
 
+        // A videó kép megjelenítése
+        c.classList.remove("invisible");
+    }, 1500); // 500 ms után történik a váltás
+};
 
-<div class="col-12 col-md-4 col-lg-3">
-                                <img src="img/rwby_v5.jpg" onerror="KepHiba(this)" class="d-block mx-auto sorikep w-50 w-md-75">
-                            </div>
-                            <div class="col-12 col-md-8 col-lg-9 text-justify my-auto border p-3" id="soriinfo">
-                                <p>A RNJR csapat (Ruby Rose, Nora Valkyrie, Jaune Arc, Lie Ren) és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben. E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.</p>
-                                <p>UI.: 1-4.részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.fejezet.</p>
-                            </div>
-
-
--->
+</script>

@@ -1094,8 +1094,8 @@ function EpisodeChange(n) {
         document.getElementById("videoDiv").classList.remove("d-none");
         document.getElementById("vid").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
         document.getElementById("descriptionDiv").classList.remove("d-none");
-        document.getElementById("episodeDescription").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
-        document.getElementById("episodeDescription").innerHTML += `<button class="gomb d-block mx-auto my-3" id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;
+        document.getElementById("episodeDescription").innerHTML = `<button class="gomb d-block mx-auto my-3 p-3" id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;
+        document.getElementById("episodeDescription").innerHTML += `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
     } else console.log("INVALID URL")
     //alert(`${videoSources.series[(+localStorage.getItem('result'))].title}`); // <- Kiválasztott sorozat címe
     //alert(`${videoSources.series[(+localStorage.getItem('result'))].episodes[episode].title}`); // <- Kiválasztott sorozat, kiválasztott epizódjának címe

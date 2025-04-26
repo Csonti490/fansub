@@ -71,12 +71,13 @@ footer {
 
 /*Mindehol -> Felugró ablak*/
 .modal-body {
-    background-color: var(--sotetkek);
+    background-color: var(--k);
     text-align: justify;
 }
 .modal-header, .modal-footer {
-    background-color: var(--sotetlila);
+    background-color: var(--k);
     color: white;
+    border: 0;
 }
 #felugro_kep {
     width: 60%;
@@ -113,11 +114,12 @@ footer {
 .pkep:hover > img {
     transition: ease-in-out 0.5s;
     transform: scale(1.125);
+    filter: grayscale(60%);
 }
 .pkep:hover > i {
     transition: ease-in-out 0.5s;
     opacity: 1 !important;
-    box-shadow: var(--k) 1px 1px 10px;
+    text-shadow: 1px 1px 2px white, 0 0 1em var(--vilkek), 0 0 0.2em var(--vilkek);
 }
 .pdoboz .pcim, .pdoboz .pleiras {
     height: 60px;

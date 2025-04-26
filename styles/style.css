@@ -1,0 +1,317 @@
+:root {
+    --vilagoslila: rgb(138, 79, 255);
+    --zoldeskek: rgb(0, 109, 119);
+    --sotetzold: rgb(0, 60, 60);
+    --vilagoskek: rgb(37, 183, 250);
+    --sotetlila: rgb(87, 31, 105);
+    --sotetkek2: rgb(29,35,49);
+    --sotetkek: rgb(28,37,63);
+    --szurke: rgb(43, 42, 51);
+    --vilagosszurke: rgb(66, 64, 73);
+    --feherlila: rgb(179, 154, 187);
+
+    --szin1: rgb(22,30,50,0.3); /* hatter */
+    --szin2: rgb(70,25,84); /* fejlec,lablec */
+    --szin3: rgb(11,15,25); /* ajanlo */
+    --szin4: rgb(35,38,39); /* szurke regist/login */
+
+    --fszf: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 50%, rgba(0,0,0,1) 100%); /* fekete-szürke-fekete */
+    --szfsz: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(255,255,255,1) 50%, rgba(65,65,65,1) 100%); /* szürke-fehér-szürke */
+
+    --vilkek: #25b7fa;
+    --k: rgba(0,60,60);/*vilz*/
+    --k0: rgba(0,60,60,0.3);/*sötz-atl*/
+    --k2: rgba(14,40,40,1);/*sötz*/
+    --sl: rgb(87, 31, 105);
+}
+/*Mindenhol -> Alap*/
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--k0);
+    color: white;
+    min-width: 300px;
+    font-family: 'Kanit', sans-serif;
+    /*background: url("img/background.jpg");*/
+    background:linear-gradient( var(--k0) 100%, var(--k0) 100%),url("../img/background.jpg");
+}
+main {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 100vh;
+}
+.hatternav, footer {
+    /*background-color: var(--sotetlila);*/
+    background-color: var(--k);
+}
+nav .navbar-brand {
+    margin-right: 0 !important;
+}
+nav .navbar-brand > img {
+    width: 125px;
+}
+nav a.navbar-brand:hover, nav li.nav-item a:hover {
+    transition: transform .2s;
+    transform: scale(1.05);
+    color: var(--vilkek) !important;
+}
+nav li.nav-item a:hover{
+    border: 1px dashed var(--vilkek);
+    border-width: 1px 0 1px 0;
+}
+a.nav-link {
+    color: white !important;
+    border-bottom: 2px dashed transparent;
+    border-width: 2px 0 2px 0;
+}
+nav .dropdown-item, .dropdown-menu {
+    background-color: var(--sotetlila);
+    color: white;
+}
+nav .dropdown-item:hover {
+    color: var(--feherlila);
+    background-color: var(--sotetlila) !important;
+}
+.modal span {
+    font-weight: bold;
+}
+footer {
+    line-height: 62px;
+}
+/*a.linkek {
+    color: white;
+}*/
+.navbar-brand {
+    font-family: 'Protest Revolution', sans-serif !important;
+    letter-spacing: .25rem !important;
+}
+.navbar-brand:hover {
+    text-decoration: none !important;
+}
+
+/*Mindehol -> Felugró ablak*/
+.modal-body {
+    background-color: var(--sotetkek);
+    text-align: justify;
+}
+.modal-header, .modal-footer {
+    background-color: var(--sotetlila);
+    color: white;
+}
+#felugro_kep {
+    width: 60%;
+}
+#kilepModal input[type="submit"], #kilepModal button {
+    cursor: pointer;
+}
+
+/*Projektek -> Projekt képek és feliratok*/
+.pdoboz {
+    border: 1px solid white;
+    background-color: var(--k);
+    position: relative;
+    display: inline-block;
+    box-shadow: #25b7fa 1px 2px 5px 1px;
+}
+.pkep > img {
+    aspect-ratio: 3/4;
+    object-fit: fill;
+    display: block;
+    transition: ease-in-out 0.5s;
+}
+.pkep > i {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    font-size: 5em;
+    transition: ease-in-out 0.5s;
+    opacity: 0;
+}
+.pkep:hover > img {
+    transition: ease-in-out 0.5s;
+    transform: scale(1.125);
+}
+.pkep:hover > i {
+    transition: ease-in-out 0.5s;
+    opacity: 1 !important;
+}
+.pdoboz .pcim, .pdoboz .pleiras {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background: var(--k);
+}
+.pcim h5, .pleiras h6 {
+    font-size: clamp(12px, 5vw, 24px);
+}
+
+/*.pdoboz .cim {
+    font-size: clamp(12px, 5vw, 24px);
+}*/
+/*Projektek -> Sorozatok képei*/
+/*.sorikep {
+    aspect-ratio: 2/3;
+    object-fit: fill;
+}*/
+
+/*Mindenhol -> Gombok*/
+.gomb {
+    background: var(--k);
+    color: white;
+    font-weight: bold;
+    transition: ease-in-out 0.25s;
+}
+.gomb:hover {
+    background: var(--vilkek);
+    color: var(--k);
+    text-decoration: underline;
+    transition: ease-in-out 0.25s;
+    box-shadow: #25b7fa 1px 2px 5px 1px;
+}
+
+/*Mindehol -> Bejegyzések*/
+.lap {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75));
+    /*margin: 16px auto;
+    padding: 24px;
+    border-radius: 24px;*/
+}
+.lap p {
+    text-align: justify;
+}
+/*Infó -> elérhetőségek */
+.elerhetoseg:hover {
+    /*display: block;
+    transform: scale(1.25);
+    transition: ease-in-out 0.5s;*/
+    text-shadow: 1px 1px 0.5px rgb(255, 255, 255);
+}
+
+/*Videok*/
+ul#episodes {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+ul#episodes li.target {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px 5px;
+    
+}
+ul#episodes li.target:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+#load,#video{
+    box-sizing: border-box;
+}
+/*
+div.synopsis {
+    color: white;
+}
+iframe, .novideo {
+    aspect-ratio: 16/9;
+    max-width: 660px !important;
+    max-height: 380px !important;
+    display: block;
+    margin: 0 auto;
+}
+#episodes, div#leiras, div#soriinfo {
+    max-width: 660px !important;
+}
+div#leiras, div#soriinfo {
+    text-align: justify;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: var(--vilagosszurke);
+    display: block;
+    margin: 16px auto;
+}
+*/
+
+
+#video {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Biztosítjuk, hogy a konténer kitöltse a szülőt */
+}
+
+#video > #vid {
+    object-fit: cover; /* A kép kitölti a konténert, nem torzul */
+    display: block;
+    width: 100%; /* A kép teljes szélessége a szülőhöz igazodik */
+}
+
+#loadText {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Középre igazítja a szöveget */
+    color: white; /* Fehér szöveg, hogy jól látható legyen */
+    font-size: 1.5em; /* Kicsit nagyobb szöveg, hogy jól látszódjon */
+}
+
+#loadText i {
+    display: block;
+    font-size: 2em; /* Az ikon méretének beállítása */
+    margin-bottom: 10px; /* Kis távolság az ikon és a szöveg között */
+}
+
+#loadText p {
+    margin: 0; /* A szöveg alatt ne legyen extra margó */
+}
+
+
+
+/*#video {
+    position: relative;
+    display: inline-block;
+}
+#video > img {
+    object-fit: fill;
+    display: block;
+}
+#video > i {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    opacity: 1;
+}*/
+
+/*Animációk*/
+@keyframes ani_nagyit {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+/*animation: ani_nagyit 0.5s ease-in-out;*/
+/*font-weight: bold;*/
+/*filter: invert(100%);*/

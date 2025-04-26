@@ -1,0 +1,8 @@
+Ha az akarom, hogy a navban-ban az elemek amikor össze van csukva, akkor középen legyenek a nav-linkek:
+@media (max-width: 576px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+<i class="fa-solid fa-cog fa-spin" ></i>

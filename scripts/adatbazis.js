@@ -974,6 +974,7 @@ function FirstLoad(){
 function EpisodeDefault(){
     
     document.getElementById("pn").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].title}`;
+    console.log(`${videoSources.series[(+localStorage.getItem('result')) - 1].title}`);
     document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].de}`;
     document.getElementById("episodeTitle").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].ti}`;
 
@@ -1071,10 +1072,10 @@ function EpisodeChange(n) {
         //console.log("VALID URL")
         document.getElementById("episodeTitle").textContent = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].title}`;
         document.getElementById("video").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
-        document.getElementById("video").innerHTML += `<div id="loadText">
+        /*document.getElementById("video").innerHTML += `<div id="loadText">
                                 <i class="fa-solid fa-cog fa-spin" ></i>
                                 <p>Betöltés...</p>
-                            </div>`;
+                            </div>`;*/
         document.getElementById("synopsis").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].desc}`;
         document.getElementById("synopsis").innerHTML += `<button class="gomb d-block mx-auto my-3" id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;
     } else console.log("INVALID URL")

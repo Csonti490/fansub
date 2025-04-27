@@ -1023,7 +1023,7 @@ function EpisodeDefault(){
     for(let i = 0; i < videoSources.series[(+localStorage.getItem('result')) - 1].episodes.length; i++){
         buttonT = videoSources.series[(+localStorage.getItem('result')) - 1].episodes[i].buttonTitle;
         pagination += `
-            <li class="target gomb d-inline-block text-center border border-1" onclick="EpisodeChange(${(+i + 1)})">${buttonT}. rész</li>`;
+            <li class="target gomb d-inline-block text-center border border-1" onclick="EpisodeChange(${(+i + 1)})">${buttonT}</li>`;
     }
     document.getElementById("episodes").innerHTML = pagination;
 

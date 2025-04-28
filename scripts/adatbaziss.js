@@ -11,7 +11,7 @@ var videoSources = {
     series: [
         {
             projectTitle: "RWBY: 1.fejezet",
-            projectSynopsis: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_1
+            title: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_1
             projectImage: `img/projects/rwby_v1.jpg`,
             projectSynopsis: `<p class="m-0">Egy fiatal hős, egy fennkölt örökösnő, egy zaklatott szélhámos és egy bulizós lány - Ez az RWBY négy tagja (Ruby Rose, Weiss Schnee, Blake Belladonna, Yang Xiao Long). Egy csapat, amelyet azért hoztak össze és képeztek ki, hogy leküzdjék Remnant fantasztikus világát sújtó burjánzó gonoszságokat. Ha ez a négy lány el akarja végezni a Beacon Akadémiát, meg kell tanulniuk együtt dolgozni a csatatéren és az osztályteremben egyaránt.</p><hr><p class="m-0">A részeket a <a href="https://indavideo.hu/profile/Chihana" title="Chihana Fansub csatija (Indavideó)" target="_blank">Chihana Fansub</a> fordította.<br>(Fordította: Mikurin, Lektorálta: Xia Yixuan)</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=1
@@ -127,7 +127,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY: 2.fejezet",
-            projectSynopsis: "Sorozat Szinopszis", //https://rwby.fandom.com/wiki/Volume_2
+            title: "Sorozat Szinopszis", //https://rwby.fandom.com/wiki/Volume_2
             projectImage: `img/projects/rwby_v2.jpg`,
             projectSynopsis: `<p class="m-0">A RWBY csapat (Ruby Rose, Weiss Schnee, Blake Belladonna, Yang Xiao Long) visszatért, és készen áll a második félévre a Beaconnál, de a valódi élet nem áll meg itt. Az órák és a házi feladatok között még időt kell találniuk a világ megmentésére. És a Fehér Agyar, Roman Torchwick és egy titokzatos új trió között minden bizonnyal lesz dolguk!</p><hr><p class="m-0">A részeket <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a> fordította.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=2
@@ -219,7 +219,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY: 3.fejezet",
-            projectSynopsis: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_3
+            title: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_3
             projectImage: `img/projects/rwby_v3.jpg`,
             projectSynopsis: `<p class="m-0">A Vytal Festival Tournament az ügyesség végső csatája, amely a világ legerősebb vadászait és vadásznőit állítja szembe egymással edzés közben... és végre itt van! Ruby, Weiss, Blake és Yang visszatért egy szezonra, ahol a legkiválóbb akciókat töltik, és nincsenek egyedül. Új harcosok Remnant minden környékéről készen állnak arra, hogy dicsőséget hozzanak Királyságuknak, de vannak köztük olyanok is, akik sokkal baljósabb célt tűztek ki maguk elé.</p><hr><p class="m-0">A részeket <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank">bluedog327</a> fordította.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=3&ref_=ttep_ep_sn_nx
@@ -311,7 +311,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY: 4.fejezet",
-            projectSynopsis: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_4
+            title: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_4
             projectImage: `img/projects/rwby_v4.jpg`,
             projectSynopsis: `<p class="m-0">Több hónap telt el a Beacon bukása óta, és Remnant világa talpra áll. Nagy a feszültségek kerekednek... rengeteg életet vesztettek, és az RWBY csapat tagjai... megosztottak. Minden hősnőnk saját utazása előtt áll.</p><hr><p class="m-0">A részeket <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a> fordította.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=4
@@ -403,7 +403,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY 5. fejezet",
-            projectSynopsis: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_5 - Szinopszis
+            title: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_5 - Szinopszis
             projectImage: 'img/projects/rwby_v5.webp',
             projectSynopsis: `<p class="m-0">Az RNJR csapat (Ruby Rose, Nora Valkyrie, Jaune Arc, Lie Ren) és Qrow végre megérkezik Mistralba, és meglepődve látják Oscart és Ozpint. Weiss és Yang azt tervezi, hogy találkoznak a csapattal. Mindeközben Blake, családja és Sun saját harcukkal közdenek Menagerie-ben. Eközben Salem Mistral ellen lép, akárcsak Vale. Oroszlánszívű Leonardo a hősök tudta nélkül félelemből áll vele szövetségben.E kötett során Adam Taurus puccsot hajt végre Sienna Khan ellen, és átveszi a Fehér Agyar vezetését, miközben kiderül, hogy a Hajadonok szoros kapcsolatban állnak az ereklyékkel.</p><hr><p class="m-0">Az 1-4. részig <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a> fordította. Azért töltöttem fel, hogy egy helyen legyen meg az 5.fejezet.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=5 - részenként rövid leírás
@@ -507,7 +507,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY: 6.fejezet",
-            projectSynopsis: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_6
+            title: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_6
             projectImage: `img/projects/rwby_v6.jpg`,
             projectSynopsis: `<p class="m-0">Az RWBY csapat újraegyesül, és az első küldetésük nagyon fontos: elkísérik a Tudás Ereklyéjét Atlaszba. Mivel a világ látszólag szétesik körülöttük, és minden sarkon Grimm leselkedik, Remnant-on áthaladva, hogy elérjék céljukat, veszélyesebb lesz, mint azt bárki is gondolta volna.</p><hr><p class="m-0">UI.: A részeket <a href="https://indavideo.hu/profile/Tensza1" title="Tensza1 csatija (Indavideó)" target="_blank">Tensza1</a> fordította.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=6
@@ -605,7 +605,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY: 7.fejezet",
-            projectSynopsis: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_7
+            title: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_7
             projectImage: `img/projects/rwby_v7.jpg`,
             projectSynopsis: `<p class="m-0">Ruby, Weiss, Blake és Yang keményen küzdöttek barátaikkal, hogy elhozzák a Tudás Ereklyéjét Atlaszba, Remnant legészakibb királyságába. A futurisztikus városi terjeszkedés azonban éppoly veszélyt rejthet, mint az őt körülvevő Grimmekkel fertőzött tundra. Ellenségek és szövetségesek ütköznek, miközben hőseink Salem erőinek megállításáért küzdenek, de az összefogás veszélyes, ha nem tudod, kiben bízhatsz.</p><hr><p class="m-0">A részeket <a href="https://indavideo.hu/profile/Viharharcos" title="Viharharcos és Krissön csatija (Indavideó)" target="_blank">Viharharcos és Krissön</a> fordította.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=7&ref_=ttep_ep_sn_nx
@@ -703,7 +703,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY: 8.fejezet",
-            projectSynopsis: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_8
+            title: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_8
             projectImage: `img/projects/rwby_v8.jpg`,
             projectSynopsis: `<p class="m-0">Hőseink legrosszabb félelmei végre beteljesültek: Salem itt van, és az időzítés nem is lehetne rosszabb a megosztott Atlasz Királyság számára. A félelem a barátokat ellenségekké változtatta, míg a kétség az emberiség megmaradt szövetségeseinek szétzúzásával fenyeget. Mivel Salem és Ironwood is ellenük küzdenek, és a Remnant sorsa forog kockán, az RWBY csapaton múlik, hogy megtegye a lépéseit, mielőtt túl késő lenne.</p><hr><p class="m-0">A részeket <a href="https://indavideo.hu/profile/Forditasok" title="Fordítások csatija (Indavideó)" target="_blank">Fordítások</a>, <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a> fordította.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=8
@@ -807,7 +807,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY 9. fejezet",
-            projectSynopsis: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
+            title: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Volume_9
             projectImage: `img/projects/rwby_v9.jpg`,
             projectSynopsis: `<p class="m-0">A 8.kötet megrázó eseményei után hősnőink egy ismeretlen világba zuhannak - az "Ever After"-be! Miközben a RWBY csapat felfedezi ezt a furcsa és titokzatos biradalmat, hirtelen rájönnek, hogy nem is olyan idegen számukra, mint ahogy azt elősször feltételezték. Ahogy utaznak, hogy megtalálják a hazautat, le kell küzdeniük eddigi legnehezebb kihívásukat - Önvalóságuk küzdelmét. És azt, hogy fel vannak-e készülve arra, hogy megállítsák Salem-et.</p><hr><p class="m-0">A részeket <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a> fordította.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=9
@@ -893,7 +893,7 @@ var videoSources = {
         },
         {
             projectTitle: "Igazság Ligája x RWBY: Szuperhősök és Vadászok",
-            projectSynopsis: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
+            title: "Szinopszis", // https://rwby.fandom.com/wiki/Justice_League_x_RWBY:_Super_Heroes_and_Huntsmen,_Part_One
             projectImage: `img/projects/rwby_x_jl.jpg`,
             projectSynopsis: `<p class="m-0">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak Remnant nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben Remnant hősei - Ruby, Weiss, Blake és Yang - rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja Remnant világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?</p>`,
             episodes: [ // Nothing
@@ -913,7 +913,7 @@ var videoSources = {
         },
         {
             projectTitle: "Trailers",
-            projectSynopsis: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Trailers
+            title: "Sorozat Szinopszis", // https://rwby.fandom.com/wiki/Trailers
             projectImage: `img/projects/rwby_team.png`,
             projectSynopsis: `<p class="m-0">A szokásos előzetesekkel ellentétben az RWBY előzetesei nem a sorozat animációit használták fel, hanem eredeti, önálló animációs rövidfilmek voltak, amelyek saját egyedi történeteiket mesélték el. Ebben az értelemben inkább a sorozat előzményeiként viselkedtek, mint a tényleges előzetesek.<br>Minden előzetest egy bizonyos szín és betűre utal, és egy, az adott témáknak megfelelő karaktert tartalmaz, amely egy kicsit elárulja a központi szereplők történetét. Például a "Piros" vagy "R" trailerben szerepelt a Ruby Rose karakter.</p>`,
             episodes: [ // https://rwby.fandom.com/wiki/Trailers
@@ -945,7 +945,7 @@ var videoSources = {
         },
         {
             projectTitle: "Shorts",// https://rwby.fandom.com/wiki/Trailers
-            projectSynopsis: "Sorozat Szinopszis",
+            title: "Sorozat Szinopszis",
             projectImage: `img/projects/rwby_team_emblems.jpg`,
             projectSynopsis: `<p class="m-0">It's been several months since the Fall of Beacon, and the world of Remnant is still recovering. Tensions are high, lives have been lost, and the members of Team RWBY... are divided. Each of our heroines now faces a journey of their own. While some must search inward if they ever hope to move on, others will venture out into the world in search of answers. Alongside the remaining members of Team JNPR, Ruby Rose has begun the long trek to the kingdom of Mistral, but the road ahead is full of surprises. New friends and enemies await, while the threat of an even larger catastrophe draws near.<br>(Eredeti animációt és történetet tartalmaznak, ugyanúgy, mint a négy karakter előzetes.)</p>`,
             episodes: [ // https://rwby.fandom.com/wiki/Trailers
@@ -983,7 +983,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY: World of Remnant",
-            projectSynopsis: "Sorozat Szinopszis", // https://tvtropes.org/pmwiki/pmwiki.php/Characters/RWBYWorldOfRemnant
+            title: "Sorozat Szinopszis", // https://tvtropes.org/pmwiki/pmwiki.php/Characters/RWBYWorldOfRemnant
             projectImage: `img/projects/rwby_world_of_remnant.jpg`,
             projectSynopsis: `<p class="m-0">Remnant világa egy olyan hely, mely tele van mítikus mesékkel, veszélyes szörnyekkel, rejtett fenyegetésekkel és titokzatos történetekkel. Míg Remnant történelme hösők és bűnösök hőstetteit, valamint hétköznapibb emberek életét megörökítette, az ősi és titkos történelem nyomai szétszórva rejlenek a világ számos gyermekmeséjében. Ez az oldal a történelem és a legenda szereplőinek szól, mesék, amelyek nagyobb igazságokat rejtenek, és olyan élőlényekről szól, amelyekről a világ talán nem is tudja, hogy a mítoszokon kívül is léteznek.</p>`,
             episodes: [ // https://www.imdb.com/title/tt3066242/episodes?season=-1
@@ -1087,7 +1087,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY: Fairy Tales", // +(szino.) https://rwby.fandom.com/wiki/RWBY:_Fairy_Tales
-            projectSynopsis: "Sorozat Szinopszis", // ep+: https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RWBYFairyTales
+            title: "Sorozat Szinopszis", // ep+: https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RWBYFairyTales
             projectImage: `img/projects/rwby_fairy_tales.jpg`,
             projectSynopsis: `<p class="m-0">Egy minisorozat, amely Renmant leghíresebb tündérmeséit kelti életre soha nem látott formában.<br>„<i>Világunknak hosszú titokzatos múltú története van. Bár lehet, hogy nem tudjuk meg a kívánt válaszokat. Vannak történeteink; horror- és hősies történetek, amelyek többet árulnak el, mit amit tudunk. És végül nem is fog számítani se a múltunk, se a jövőnk, de egy dolog biztos: a történetek fennmaradnak.</i>”<br><span class="float-end">- Ozpin Professzor</span>&nbsp;</p>`,
             episodes: [ // https://www.imdb.com/title/tt15830868/episodes?season=1&ref_=tt_eps_sn_1
@@ -1137,7 +1137,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY Chibi (1.évad)",
-            projectSynopsis: "Sorozat Szinopszis", // Nothing
+            title: "Sorozat Szinopszis", // Nothing
             projectImage: `img/projects/rwby_chibi_1.jpg`,
             projectSynopsis: `<p class="m-0">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
             episodes: [ // Nothing
@@ -1151,7 +1151,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY Chibi (2.évad)",
-            projectSynopsis: "Sorozat Szinopszis", // Nothing
+            title: "Sorozat Szinopszis", // Nothing
             projectImage: `img/projects/rwby_chibi_2.jpg`,
             projectSynopsis: `<p class="m-0">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
             episodes: [ // Nothing
@@ -1165,7 +1165,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY Chibi (3.évad)",
-            projectSynopsis: "Sorozat Szinopszis", // Nothing
+            title: "Sorozat Szinopszis", // Nothing
             projectImage: `img/projects/rwby_chibi_3.jpg`,
             projectSynopsis: `<p class="m-0">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
             episodes: [ // Nothing
@@ -1179,7 +1179,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY Chibi (4.évad)",
-            projectSynopsis: "Sorozat Szinopszis", // Nothing
+            title: "Sorozat Szinopszis", // Nothing
             projectImage: `img/projects/rwby_chibi_4.jpg`,
             projectSynopsis: `<p class="m-0">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
             episodes: [ // Nothing
@@ -1193,7 +1193,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY Beyond",
-            projectSynopsis: "Sorozat Szinopszis", // Nothing
+            title: "Sorozat Szinopszis", // Nothing
             projectImage: `img/projects/rwby_beyond.png`,
             projectSynopsis: `<p class="m-0">Stories about what is happening in Vacuo and the Ever After following Volume 9.</p>`,
             episodes: [ // Nothing
@@ -1225,7 +1225,7 @@ var videoSources = {
         },
         {
             projectTitle: "RWBY Evermorrow",
-            projectSynopsis: "Sorozat Szinopszis", // Nothing
+            title: "Sorozat Szinopszis", // Nothing
             projectImage: `img/projects/rwby_evermorrow.jpg`,
             projectSynopsis: `<p class="m-0">??</p>`,
             episodes: [ // Nothing
@@ -1287,7 +1287,7 @@ var videoSources = {
         },
         {
             projectTitle: "Nincs elérhető információ",
-            projectSynopsis: "",
+            title: "",
             projectImage: `img/confused.png`,
             projectSynopsis: `<p class="m-0">-=- ??? -=-</p>`,
             episodes: [
@@ -1307,7 +1307,7 @@ function EpisodeDefault(){
     //console.log(`${videoSources.series[(+localStorage.getItem('result')) - 1].title}`);
     document.getElementById("sorikep").src = `${videoSources.series[(+localStorage.getItem('result')) - 1].projectImage}`;
     document.getElementById("soriinfo").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].projectSynopsis}`;
-    document.getElementById("episodeTitle").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].projectSynopsis}`;
+    document.getElementById("episodeTitle").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].title}`;
 
     let pagination = ``;
     for(let i = 0; i < videoSources.series[(+localStorage.getItem('result')) - 1].episodes.length; i++){
@@ -1422,7 +1422,7 @@ function Mehet(adat){
     document.getElementById("episodes").style.display="none";
 }
 function Vissza(){
-    document.getElementById("episodeTitle").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].projectSynopsis}`;
+    document.getElementById("episodeTitle").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].title}`;
     document.getElementById("szinopszisDiv").classList.remove("d-none");
     document.getElementById("videoDiv").classList.add("d-none");
     document.getElementById("descriptionDiv").classList.add("d-none");

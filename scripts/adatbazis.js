@@ -1200,7 +1200,7 @@ var videoSources = {
                 {
                     buttonTitle: `1. rész`,
                     episodeTitle: "Jr. Detectives",
-                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/jttVSbAS#hsmif97H_bn3qDLQuf3eezQGVSqP3YTGlEpN1QMtLK0`,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/jttVSbAS#hsmif97H_bn3qDLQuf3eezQGVSqP3YTGlEpN1QMtLK0" allowfullscreen id="vid"></iframe>`,
                     description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {

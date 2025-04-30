@@ -1145,7 +1145,7 @@ var videoSources = {
                     buttonTitle: 'Opening',
                     episodeTitle: "RWBY Chibi Opening",
                     sourceCode: iimmgg,
-                    description: `<p>Rövid leírás</p><p>???</p>`
+                    description: `<p>Rövid leírás</p><p>A spinoff of the popular rooster teeth show RWBY. This show is small clips of the cast of RWBY in their spare time.</p>`
                 },
             ]
         },
@@ -1159,7 +1159,7 @@ var videoSources = {
                     buttonTitle: 'Opening',
                     episodeTitle: "RWBY Chibi Opening",
                     sourceCode: iimmgg,
-                    description: `<p>Rövid leírás</p><p>???</p>`
+                    description: `<p>Rövid leírás</p><p>A spinoff of the popular rooster teeth show RWBY. This show is small clips of the cast of RWBY in their spare time.</p>`
                 },
             ]
         },
@@ -1173,7 +1173,7 @@ var videoSources = {
                     buttonTitle: 'Opening',
                     episodeTitle: "RWBY Chibi Opening",
                     sourceCode: iimmgg,
-                    description: `<p>Rövid leírás</p><p>???</p>`
+                    description: `<p>Rövid leírás</p><p>A spinoff of the popular rooster teeth show RWBY. This show is small clips of the cast of RWBY in their spare time.</p>`
                 },
             ]
         },
@@ -1187,7 +1187,7 @@ var videoSources = {
                     buttonTitle: 'Opening',
                     episodeTitle: "RWBY Chibi Opening",
                     sourceCode: iimmgg,
-                    description: `<p>Rövid leírás</p><p>???</p>`
+                    description: `<p>Rövid leírás</p><p>A spinoff of the popular rooster teeth show RWBY. This show is small clips of the cast of RWBY in their spare time.</p>`
                 },
             ]
         },
@@ -1204,22 +1204,22 @@ var videoSources = {
                     description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {
-                    buttonTitle: `.2. rész`,
+                    buttonTitle: `2. rész`,
                     episodeTitle: "A Knight's Journal",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/H1VgTD7S#-pB13Tlhowr_jcADsWUaOkkyUkImNQE1S0FSWAeFA38" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>2. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {
                     buttonTitle: `3. rész`,
                     episodeTitle: "The Adventures of Somewhat",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/y9cD2brL#c4e72pSWvF9U-jE2WD1Z-oSsaVBKQnSARWyJO6DPxYQ" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>3. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {
                     buttonTitle: `4. rész`,
                     episodeTitle: "Boba",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/a9cThbBR#v4irs-FgC_Lm6Clx5rMSB36ZIOW3N-ox5bK_fJU-S7U" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>4. rész rövid leírása</p><p>Leírás</p>`
                 }
             ]
         },
@@ -1245,43 +1245,43 @@ var videoSources = {
                     buttonTitle: `2. rész`,
                     episodeTitle: "The Tournament & Beyond",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/joUCASLC#l30SOTkeO_wQlgI9-ngyy41II5IH9jkvaIYb1KVE594" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>2. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {
                     buttonTitle: `3. rész`,
                     episodeTitle: "Old Friends, New Team",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/SttWFT5Q#TMGh6SrlDowbpFA-1Zqb9UAcI37UE0YBB5WtwzmAND0" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>3. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {
                     buttonTitle: `4. rész`,
                     episodeTitle: "CRDL Sins",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/D1VTxSZJ#d7STWIxfYZmIREDeRURBslGViti9Czkt-OrogAPFAdQ" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>4. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {
                     buttonTitle: `5. rész`,
                     episodeTitle: "All Roads Lead to Roman",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/ao0GzS5D#creeOCf4FH_l3Cw4qRBMuMBNgFK1qcUvu9DhuFdIjI4" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>5. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {
                     buttonTitle: `6. rész`,
                     episodeTitle: "The Crate Escape",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/W0lhzZ4S#wQYIXWjOzNonq0p7Htl2jLy83BOLiAooRTZvZYqZ3PY" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>6. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {
                     buttonTitle: `7. rész`,
                     episodeTitle: "When The Dust Settles",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/mskXGTxQ#gxXyhWu2uOHy3OkEtPqErUmjx58fGYnRyzwB4Zcqv6c" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>7. rész rövid leírása</p><p>Leírás</p>`
                 },
                 {
                     buttonTitle: `8. rész`,
                     episodeTitle: "Cold Snap",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/68FzHJ7T#Nw2FD7RgHamNmrNhD3fFWY650rOvgy1mXqMhd_mtDzU" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><p>Leírás</p>`
+                    description: `<p>8. rész rövid leírása</p><p>Leírás</p>`
                 }
             ]
         },
@@ -1289,7 +1289,7 @@ var videoSources = {
             projectTitle: "Nincs elérhető információ",
             title: "",
             projectImage: `img/confused.png`,
-            projectSynopsis: `<p class="m-0">-=- ??? -=-</p>`,
+            projectSynopsis: `<p class="m-0 text-center">-=- ??? -=-</p>`,
             episodes: [
             ]
         },

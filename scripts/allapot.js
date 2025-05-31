@@ -14,19 +14,17 @@ var Projects = [
 
 var hely = document.getElementById("stts");
 if(hely){
-    let adat = "";
+    let adat = `<tr>
+                                <th>Sorozat</th>
+                                <th>Epizód</th>
+                                <th>Állapot</th>
+                            </tr>`;
     for(let i = 0; i < Projects.length; i++){
-        adat += `                            <div class="row text-center border my-1 d-flex justify-content-center align-items-center">
-                                <div class="col-12 col-md-4">
-                                    ${Projects[i].title}
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    ${Projects[i].episode}
-                                </div>
-                                <div class="col-12 col-md-4">
-                                    ${Projects[i].status}
-                                </div>
-                            </div>`;
+        adat += `                            <tr>
+                                <td>${Projects[i].title}</td>
+                                <td>${Projects[i].episode}</td>
+                                <td class="text-center">${Projects[i].status}</td>
+                            </tr>`;
     }
     hely.innerHTML = adat;
 }

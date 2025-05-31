@@ -69,6 +69,29 @@ footer {
     text-decoration: none !important;
 }
 
+/*Mindenhol -> Lapok*/
+.lap {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75));
+}
+.lap p {
+    text-align: justify;
+}
+
+/*Mindenhol -> Gombok*/
+.gomb {
+    background: var(--k);
+    color: white;
+    font-weight: bold;
+    transition: ease-in-out 0.25s;
+}
+.gomb:hover {
+    background: var(--vilkek);
+    color: var(--k);
+    text-decoration: underline;
+    transition: ease-in-out 0.25s;
+    box-shadow: #25b7fa 1px 2px 5px 1px;
+}
+
 /*Mindehol -> Felugró ablak*/
 .modal-body {
     background-color: var(--k);
@@ -128,55 +151,12 @@ footer {
     align-items: center;
     text-align: center;
     position: relative;
-    background: var(--k);
 }
-.pcim h5, .pleiras h6 {
-    font-size: clamp(12px, 5vw, 24px);
-}
-
-/*Mindenhol -> Gombok*/
-.gomb {
-    background: var(--k);
-    color: white;
-    font-weight: bold;
-    transition: ease-in-out 0.25s;
-}
-.gomb:hover {
-    background: var(--vilkek);
-    color: var(--k);
-    text-decoration: underline;
-    transition: ease-in-out 0.25s;
-    box-shadow: #25b7fa 1px 2px 5px 1px;
+/*.pcim h5,*/ .pleiras h6 {
+    font-size: clamp(90%, 75%, 100%);
 }
 
-/*Mindehol -> Bejegyzések*/
-.lap {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75));
-}
-.lap p {
-    text-align: justify;
-}
-/*Infó -> elérhetőségek */
-.elerhetoseg:hover {
-    /*display: block;
-    transform: scale(1.25);
-    transition: ease-in-out 0.5s;*/
-    text-shadow: 1px 1px 0.5px rgb(255, 255, 255);
-}
-
-/*Videok*/
-ul#episodes {
-    list-style-type: none;
-}
-ul#episodes li.target {
-    cursor: pointer;
-    padding: 5px;
-    text-decoration: none;
-    width: 100px;
-    margin: 5px 5px;
-}
-
-
+/*Videók -> Videó, Epizódlista*/
 #video {
     position: relative;
     display: inline-block;
@@ -189,7 +169,19 @@ ul#episodes li.target {
     width: 100%;
 }
 
-table#frissitesek, table#frissitesek tr, table#frissitesek th, table#frissitesek td {
+ul#episodes {
+    list-style-type: none;
+}
+ul#episodes li.target {
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    width: 100px;
+    margin: 5px 5px;
+}
+
+/*Hírfolyam -> Frissítések*/
+table.updates, table.updates tr, table.updates th, table.updates td {
     border-collapse: collapse;
     border: 1px solid white;
     margin: 0 auto;
@@ -197,14 +189,19 @@ table#frissitesek, table#frissitesek tr, table#frissitesek th, table#frissitesek
     padding: 10px;
     width: 100%;
 }
-table#frissitesek th {
+table.updates th {
     color: var(--k);
     background-color: white;
     border: 1px solid var(--k);
 }
-table#frissitesek td:first-child{
+table.updates td:first-child{
     text-align: left;
 }
-table#frissitesek td:last-child{
+table.updates td:last-child{
     text-align: right;
+}
+
+/*Infó -> elérhetőségek*/
+.elerhetoseg:hover {
+    text-shadow: 1px 1px 0.5px rgb(255, 255, 255);
 }

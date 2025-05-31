@@ -1,4 +1,4 @@
-/* =-= Főoldal -> Állapotjelző =-= */
+/* =-= Hírfolyam -> Frissítések, Állapotjelző =-= */
 var Projects = [
     {
         title: "RWBY",

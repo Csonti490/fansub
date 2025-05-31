@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Devtool Teszt</title>
+  <script disable-devtool-auto src="https://cdn.jsdelivr.net/npm/disable-devtool"></script>
+  <script>
+    /*
+    // Várunk, míg betöltődik a disable-devtool
+    setTimeout(() => {
+      DisableDevtool({
+        ondevtoolopen: () => {
+          window.location.href = "info.html"; // Ide irányít át
+        }
+      });
+    }, 200000); // rövid késleltetés a megbízhatóbb betöltéshez
+    */
+    DisableDevtool({
+  ondevtoolopen: () => {
+    console.log("Fejlesztői eszközök megnyitva!");
+  }
+});
+  </script>
+</head>
+<body>
+  <h1>Próbáld meg megnyitni a fejlesztői eszközöket (F12)...</h1>
+  <p>a</p>
+</body>
+</html>
+
+<!--
+
+<div id="nav-placeholder"></div>
+
+  <script>
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+      });
+  </script>
+VAGY
+<script>
+  fetch('nav.html')
+    .then(res => res.text())
+    .then(html => document.querySelector('#nav-placeholder').innerHTML = html);
+</script>
+
+-->

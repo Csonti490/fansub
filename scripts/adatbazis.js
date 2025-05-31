@@ -1286,6 +1286,26 @@ var videoSources = {
             ]
         },
         {
+            projectTitle: "Dust Queen",
+            title: "Sorozat Szinopszis",
+            projectImage: `img/projects/rwby_dq.jpg`,
+            projectSynopsis: `<p class="m-0">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
+            episodes: [
+                {
+                    buttonTitle: 'Teaser',
+                    episodeTitle: "Dust Queen Teaser",
+                    sourceCode: iimmgg,
+                    description: `<p>Rövid leírás</p><p>Ruby (Tina Mickel), Weiss (Abby Brenner), Blake (Ari Thrash) and Yang (ZippyDoesVoices) approach the end of their second year of Beacon, an academy that trains the world's strongest fighters. However, things go astray on one of their final missions together, and the world as they know it changes forever…</p>`
+                },
+                {
+                    buttonTitle: 'Trailer',
+                    episodeTitle: "Dust Queen Trailer",
+                    sourceCode: iimmgg,
+                    description: `<p>Rövid leírás</p><p>Ruby (Tina Mickel), Weiss (Abby Brenner), Blake (Ari Thrash) and Yang (ZippyDoesVoices) approach the end of their second year of Beacon, an academy that trains the world's strongest fighters. However, things go astray on one of their final missions together, and the world as they know it changes forever…</p>`
+                },
+            ]
+        },
+        {
             projectTitle: "Nincs elérhető információ",
             title: "",
             projectImage: `img/confused.png`,
@@ -1381,8 +1401,11 @@ function ProjectChange(n) {
         case 20:
             localStorage.setItem('result', 20); // RWBY Evermorrow
             break;
+        case 21:
+            localStorage.setItem('result', 21); // RWBY Evermorrow
+            break;
         default:
-            localStorage.setItem('result', 21); // Default
+            localStorage.setItem('result', 22); // Default
     }
 }
 

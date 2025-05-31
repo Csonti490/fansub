@@ -93,6 +93,9 @@
                             <button class="w-100 p-3 gomb" onclick="location.href='projektek.html?allapot=tervezett'">Tervezett</button>
                         </div>
                     </div>
+                    <div class="row col-12">
+                        <img src="img/falling.png" alt="Zuhanás" class="d-bloxk mx-auto w-md-25 w-50 w-sm-50">
+                    </div>
                 </div>
             </div>
 
@@ -109,10 +112,132 @@
             <div class="d-none" id="befejezett">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 d-block mx-auto text-center">
+
+                        <!--<div class="col-12 d-block mx-auto text-center">
                             <h5 class="m-0">Sajnos nincsen ilyen projekt :c</h5>
                             <img src="img/waiting.gif" class="w-100 w-md-75 w-lg-50 w-xl-50" alt="">
+                        </div>-->
+
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
+                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
+                                <div class="col-12 m-0 p-0 pcim">
+                                    <h5 class="text-center m-0 p-3">RWBY 1.évad</h5>
+                                </div>
+                                <div class="col-12 overflow-hidden pkep">
+                                    <img src="img/projects/rwby_v1.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2"  onclick="ProjectChange(1); window.location.href = 'videok.html';">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </div>
+                                <div class="col-12 m-0 p-0 pleiras">
+                                    <h6 class="text-center m-0 p-0">Fordító: Chihana-Fansub<br>Lektor: Chihana-Fansub<br>Részek száma: 16/16</h6>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
+                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
+                                <div class="col-12 m-0 p-0 pcim">
+                                    <h5 class="text-center m-0 p-3">RWBY 2.évad</h5>
+                                </div>
+                                <div class="col-12 overflow-hidden pkep">
+                                    <img src="img/projects/rwby_v2.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2"  onclick="ProjectChange(2); window.location.href = 'videok.html';">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </div>
+                                <div class="col-12 m-0 p-0 pleiras">
+                                    <h6 class="text-center m-0 p-0">Fordító: bluedog327<br>Lektor: ???<br>Részek száma: 12/12</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
+                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
+                                <div class="col-12 m-0 p-0 pcim">
+                                    <h5 class="text-center m-0 p-3">RWBY 3.évad</h5>
+                                </div>
+                                <div class="col-12 overflow-hidden pkep">
+                                    <img src="img/projects/rwby_v3.webp" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2"  onclick="ProjectChange(3); window.location.href = 'videok.html';">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </div>
+                                <div class="col-12 m-0 p-0 pleiras">
+                                    <h6 class="text-center m-0 p-0">Fordító: Thoma<br>Lektor: ???<br>Részek száma: 12/12</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
+                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
+                                <div class="col-12 m-0 p-0 pcim">
+                                    <h5 class="text-center m-0 p-3">RWBY 4.évad</h5>
+                                </div>
+                                <div class="col-12 overflow-hidden pkep">
+                                    <img src="img/projects/rwby_v4.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2"  onclick="ProjectChange(4); window.location.href = 'videok.html';">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </div>
+                                <div class="col-12 m-0 p-0 pleiras">
+                                    <h6 class="text-center m-0 p-0">Fordító: bluedog327<br>Lektor: ???<br>Részek száma: 12/12</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
+                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
+                                <div class="col-12 m-0 p-0 pcim">
+                                    <h5 class="text-center m-0 p-3">RWBY 6.évad</h5>
+                                </div>
+                                <div class="col-12 overflow-hidden pkep">
+                                    <img src="img/projects/rwby_v6.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2"  onclick="ProjectChange(6); window.location.href = 'videok.html';">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </div>
+                                <div class="col-12 m-0 p-0 pleiras">
+                                    <h6 class="text-center m-0 p-0">Fordító: Tensza1<br>Lektor: ???<br>Részek száma: 13/13</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
+                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
+                                <div class="col-12 m-0 p-0 pcim">
+                                    <h5 class="text-center m-0 p-3">RWBY 7.évad</h5>
+                                </div>
+                                <div class="col-12 overflow-hidden pkep">
+                                    <img src="img/projects/rwby_v7.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2"  onclick="ProjectChange(7); window.location.href = 'videok.html';">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </div>
+                                <div class="col-12 m-0 p-0 pleiras">
+                                    <h6 class="text-center m-0 p-0">Fordító: Viharharcos<br>Lektor: Krissön<br>Részek száma: 13/13</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
+                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
+                                <div class="col-12 m-0 p-0 pcim">
+                                    <h5 class="text-center m-0 p-3">RWBY 8.évad</h5>
+                                </div>
+                                <div class="col-12 overflow-hidden pkep">
+                                    <img src="img/projects/rwby_v8.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2"  onclick="ProjectChange(8); window.location.href = 'videok.html';">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </div>
+                                <div class="col-12 m-0 p-0 pleiras">
+                                    <h6 class="text-center m-0 p-0">Fordító: Fordítások, Santii<br>Lektor: ???<br>Részek száma: 14/14</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
+                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
+                                <div class="col-12 m-0 p-0 pcim">
+                                    <h5 class="text-center m-0 p-3">RWBY 9.évad</h5>
+                                </div>
+                                <div class="col-12 overflow-hidden pkep">
+                                    <img src="img/projects/rwby_v9.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2"  onclick="ProjectChange(9); window.location.href = 'videok.html';">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </div>
+                                <div class="col-12 m-0 p-0 pleiras">
+                                    <h6 class="text-center m-0 p-0">Fordító: Santii<br>Lektor: ???<br>Részek száma: 11/11</h6>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -131,7 +256,7 @@
                                     <i class="fa-solid fa-circle-play"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 10/14</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: Thoma, CsontiXD<br>Lektor: Yeet the meat, Mary<br>Részek száma: 10/14</h6>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +271,7 @@
                                     <i class="fa-solid fa-circle-play"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 02/16</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: CsontiXD<br>Lektor: Yeet the meat, Mary<br>Részek száma: 02/16</h6>
                                 </div>
                             </div>
                         </div>
@@ -169,127 +294,7 @@
                                     <i class="fa-solid fa-circle-question"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 2</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
-                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
-                                <div class="col-12 m-0 p-0 pcim">
-                                    <h5 class="text-center m-0 p-3">RWBY 1.évad</h5>
-                                </div>
-                                <div class="col-12 overflow-hidden pkep">
-                                    <img src="img/projects/rwby_v1.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2" data-bs-toggle="modal" data-bs-target="#DeMiert2">
-                                    <i class="fa-solid fa-circle-question"></i>
-                                </div>
-                                <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 16</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
-                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
-                                <div class="col-12 m-0 p-0 pcim">
-                                    <h5 class="text-center m-0 p-3">RWBY 2.évad</h5>
-                                </div>
-                                <div class="col-12 overflow-hidden pkep">
-                                    <img src="img/projects/rwby_v2.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2" data-bs-toggle="modal" data-bs-target="#DeMiert2">
-                                    <i class="fa-solid fa-circle-question"></i>
-                                </div>
-                                <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 12</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
-                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
-                                <div class="col-12 m-0 p-0 pcim">
-                                    <h5 class="text-center m-0 p-3">RWBY 3.évad</h5>
-                                </div>
-                                <div class="col-12 overflow-hidden pkep">
-                                    <img src="img/projects/rwby_v3.webp" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2" data-bs-toggle="modal" data-bs-target="#DeMiert2">
-                                    <i class="fa-solid fa-circle-question"></i>
-                                </div>
-                                <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 12</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
-                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
-                                <div class="col-12 m-0 p-0 pcim">
-                                    <h5 class="text-center m-0 p-3">RWBY 4.évad</h5>
-                                </div>
-                                <div class="col-12 overflow-hidden pkep">
-                                    <img src="img/projects/rwby_v4.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2" data-bs-toggle="modal" data-bs-target="#DeMiert2">
-                                    <i class="fa-solid fa-circle-question"></i>
-                                </div>
-                                <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 12</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
-                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
-                                <div class="col-12 m-0 p-0 pcim">
-                                    <h5 class="text-center m-0 p-3">RWBY 6.évad</h5>
-                                </div>
-                                <div class="col-12 overflow-hidden pkep">
-                                    <img src="img/projects/rwby_v6.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2" data-bs-toggle="modal" data-bs-target="#DeMiert2">
-                                    <i class="fa-solid fa-circle-question"></i>
-                                </div>
-                                <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 13</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
-                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
-                                <div class="col-12 m-0 p-0 pcim">
-                                    <h5 class="text-center m-0 p-3">RWBY 7.évad</h5>
-                                </div>
-                                <div class="col-12 overflow-hidden pkep">
-                                    <img src="img/projects/rwby_v7.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2" data-bs-toggle="modal" data-bs-target="#DeMiert2">
-                                    <i class="fa-solid fa-circle-question"></i>
-                                </div>
-                                <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 13</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
-                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
-                                <div class="col-12 m-0 p-0 pcim">
-                                    <h5 class="text-center m-0 p-3">RWBY 8.évad</h5>
-                                </div>
-                                <div class="col-12 overflow-hidden pkep">
-                                    <img src="img/projects/rwby_v8.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2" data-bs-toggle="modal" data-bs-target="#DeMiert2">
-                                    <i class="fa-solid fa-circle-question"></i>
-                                </div>
-                                <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 14</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-6 p-3">
-                            <div class="container row m-0 p-0 pdoboz overflow-hidden rounded-3">
-                                <div class="col-12 m-0 p-0 pcim">
-                                    <h5 class="text-center m-0 p-3">RWBY 9.évad</h5>
-                                </div>
-                                <div class="col-12 overflow-hidden pkep">
-                                    <img src="img/projects/rwby_v9.jpg" alt="Hibás kép" onerror="KepHiba(this)" class="w-100 h-100 p-0 rounded-2" data-bs-toggle="modal" data-bs-target="#DeMiert2">
-                                    <i class="fa-solid fa-circle-question"></i>
-                                </div>
-                                <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 11</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: ???<br>Lektor: ???<br>Részek száma: 00/02</h6>
                                 </div>
                             </div>
                         </div>
@@ -312,7 +317,7 @@
                                     <i class="fa-solid fa-circle-play"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 6</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: ???<br>Lektor: ???<br>Részek száma: 00/06</h6>
                                 </div>
                             </div>
                         </div>
@@ -327,7 +332,7 @@
                                     <i class="fa-solid fa-circle-play"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 4</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: ???<br>Lektor: ???<br>Részek száma: 00/04</h6>
                                 </div>
                             </div>
                         </div>
@@ -342,7 +347,7 @@
                                     <i class="fa-solid fa-circle-play"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 8</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: ???<br>Lektor: ???<br>Részek száma: 00/08</h6>
                                 </div>
                             </div>
                         </div>
@@ -357,7 +362,7 @@
                                     <i class="fa-solid fa-circle-play"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 24</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: ???<br>Lektor: ???<br>Részek száma: 00/24</h6>
                                 </div>
                             </div>
                         </div>
@@ -372,7 +377,7 @@
                                     <i class="fa-solid fa-circle-play"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 24</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: ???<br>Lektor: ???<br>Részek száma: 00/24</h6>
                                 </div>
                             </div>
                         </div>
@@ -387,7 +392,7 @@
                                     <i class="fa-solid fa-circle-play"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 16</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: ???<br>Lektor: ???<br>Részek száma: 00/16</h6>
                                 </div>
                             </div>
                         </div>
@@ -402,7 +407,7 @@
                                     <i class="fa-solid fa-circle-play"></i>
                                 </div>
                                 <div class="col-12 m-0 p-0 pleiras">
-                                    <h6 class="text-center m-0 p-3">Részek száma: 10</h6>
+                                    <h6 class="text-center m-0 p-0">Fordító: ???<br>Lektor: ???<br>Részek száma: 00/10</h6>
                                 </div>
                             </div>
                         </div>
@@ -412,7 +417,7 @@
             </div>
         </main>
         <footer class="text-center footer m-0">
-            <p class="m-0">Az oldal jelenlegi verziója: 4.01.01</p>
+            <p class="m-0">Az oldal jelenlegi verziója: 4.01.02</p>
         </footer>
     </body>
 </html>

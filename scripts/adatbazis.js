@@ -423,25 +423,25 @@ var videoSources = {
                     buttonTitle: `1. rész`,
                     episodeTitle: "Welcome to Haven / Üdv Haven-ben",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/DotiWZaT#5nAO0LmbY2pdqqJ5c5H7RV6fbEwD6kJKYjUOF9eY4cQ" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><hr><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Egy hosszú és fárasztó út után a RNJR csapat és Qrow végre találkozik Lionheart Professzorral. Weiss továbbra is menekül apja elől, Blake szembesíti Aliát a "White Fang"-el való szővetségével kapcsolatban, Yang pedig nyomra bukkan az anyjával kapcsolatban.</p>`
+                    description: `<p>1. rész rövid leírása</p><hr><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>Egy hosszú és fárasztó út után a RNJR csapat és Qrow végre találkozik Lionheart Professzorral. Weiss továbbra is menekül apja elől, Blake szembesíti Aliát a "White Fang"-el való szővetségével kapcsolatban, Yang pedig nyomra bukkan az anyjával kapcsolatban.</p>`
                 },
                 {
                     buttonTitle: `2. rész`,
                     episodeTitle: "Dread in the air / Rettegés a levegőben",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/q5UXQbhZ#jVB8zhyYF4OpKk3lYcLz62gzPZkaA2l2Hy8F4McoIK8" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>2. rész rövid leírása</p><hr><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Weiss útját Haven felé a Lancerek raja blokkolja, akik lesből támadnak a területüket átszelő repülőgépekre. Adam találkozik a "White Fang" vezetőjével, Sienna Khannal, hogy bemutassa Hazelt.</p>`
+                    description: `<p>2. rész rövid leírása</p><hr><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>Weiss útját Haven felé a Lancerek raja blokkolja, akik lesből támadnak a területüket átszelő repülőgépekre. Adam találkozik a "White Fang" vezetőjével, Sienna Khannal, hogy bemutassa Hazelt.</p>`
                 },
                 {
                     buttonTitle: `3. rész`,
                     episodeTitle: "Unforeseen Complications / Váratlan Bonyodalmak",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/m9NS3bRb#cDIs-KxG9CbOxZrv8YHAO7a5iCOyS8hqxy40NlMv5Pc" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>3. rész rövid leírása</p><hr><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Ilia félbeszakítja Ghira és Blake kísérletét, hogy meggyőzzék a Menagerie Faunus-ait, hogy segítsenek megmenteni Havent. Weiss fogvatartói felfedik terveiket, hogy visszaváltsák őt apjának. Eközben az RNJR csapat többet tud meg Oscar furcsa képességéről.</p>`
+                    description: `<p>3. rész rövid leírása</p><hr><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>Ilia félbeszakítja Ghira és Blake kísérletét, hogy meggyőzzék a Menagerie Faunus-ait, hogy segítsenek megmenteni Havent. Weiss fogvatartói felfedik terveiket, hogy visszaváltsák őt apjának. Eközben az RNJR csapat többet tud meg Oscar furcsa képességéről.</p>`
                 },
                 {
                     buttonTitle: `4. rész`,
                     episodeTitle: "Lighting the Fire / A Tűz Meggyújtása",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/O1dyFJ5L#lzcIivNTZbJINt43e79DkkG1hss6y986pSx41wUngaM" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>4. rész rövid leírása</p><hr><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)">Thoma</a><br>Ruby és Oscar elkezdenek edzeni a kézi harcban. Yang megtalálja Raven táborát, de Weiss elrablásának felfedezése megnehezíti a találkozásukat.</p>`
+                    description: `<p>4. rész rövid leírása</p><hr><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Rektilian" title="Thoma csatija (Indavideó)" target="_blank">Thoma</a><br>Ruby és Oscar elkezdenek edzeni a kézi harcban. Yang megtalálja Raven táborát, de Weiss elrablásának felfedezése megnehezíti a találkozásukat.</p>`
                 },
                 {
                     buttonTitle: `5. rész`,
@@ -827,61 +827,61 @@ var videoSources = {
                     buttonTitle: `1. rész`,
                     episodeTitle: "A Place of Particular Concern / A Különös Aggodalmas Hely",
                     sourceCode: iimmgg,
-                    description: `<p>1. rész rövid leírása</p><hr><p>A RWBY csapat egy hatalmas szigetre mosódik ismeretlen helyen, Jaune-nal és Neó-val. Miközben barátaik, valamint Atlas és Mantle lakói átutazzák Vacuo-t.</p>`
+                    description: `<p>1. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>A RWBY csapat egy hatalmas szigetre mosódik ismeretlen helyen, Jaune-nal és Neó-val. Miközben barátaik, valamint Atlas és Mantle lakói átutazzák Vacuo-t.</p>`
                 },
                 {
                     buttonTitle: `2. rész`,
                     episodeTitle: "Altercation at the Auspicious Auction / Változás a Kedvező Árverésen",
                     sourceCode: iimmgg,
-                    description: `<p>2. rész rövid leírása</p><hr><p>Amelyben az RWBY csapat többet kapnak, mint amennyiért cserélték.</p>`
+                    description: `<p>2. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>Amelyben az RWBY csapat többet kapnak, mint amennyiért cserélték.</p>`
                 },
                 {
                     buttonTitle: `3. rész`,
                     episodeTitle: "Rude, Red, and Royal / Goromba, Vörös, és Királyi",
                     sourceCode: iimmgg,
-                    description: `<p>3. rész rövid leírása</p><hr><p>Amelyben megszegik a játékszabályokat.</p>`
+                    description: `<p>3. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>Amelyben megszegik a játékszabályokat.</p>`
                 },
                 {
                     buttonTitle: `4. rész`,
                     episodeTitle: "A Cat Most Curious / A Legkíváncsibb Macska",
                     sourceCode: iimmgg,
-                    description: `<p>4. rész rövid leírása</p><hr><p>Amelyben új ismeretségek születnek.</p>`
+                    description: `<p>4. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>Amelyben új ismeretségek születnek.</p>`
                 },
                 {
                     buttonTitle: `5. rész`,
                     episodeTitle: "The Parfait Predicament / A tökéletesen kínos helyzet",
                     sourceCode: iimmgg,
-                    description: `<p>5. rész rövid leírása</p><hr><p>Amelyben egy desszert van összeállítva.</p>`
+                    description: `<p>5. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>Amelyben egy desszert van összeállítva.</p>`
                 },
                 {
                     buttonTitle: `6. rész`,
                     episodeTitle: "Confessions Within Cumulonimbus Clouds / Vallomások a gomolyfelhőkben",
                     sourceCode: iimmgg,
-                    description: `<p>6. rész rövid leírása</p><hr><p>Amelyben a régi barátok újraegyesülnek.</p>`
+                    description: `<p>6. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>Amelyben a régi barátok újraegyesülnek.</p>`
                 },
                 {
                     buttonTitle: `7. rész`,
                     episodeTitle: "The Perils of Paper Houses / A Papírházak Veszedelmei",
                     sourceCode: iimmgg,
-                    description: `<p>7. rész rövid leírása</p><hr><p>Amelyben tervek és menetrendek készülnek.</p>`
+                    description: `<p>7. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>Amelyben tervek és menetrendek készülnek.</p>`
                 },
                 {
                     buttonTitle: `8. rész`,
                     episodeTitle: "Tea Amidst Terrible Trouble / Tea Szörnyű Bajok Közepette",
                     sourceCode: iimmgg,
-                    description: `<p>8. rész rövid leírása</p><hr><p>Amiben egy kis tea kiömlött.</p>`
+                    description: `<p>8. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>Amiben egy kis tea kiömlött.</p>`
                 },
                 {
                     buttonTitle: `9. rész`,
                     episodeTitle: "A Tale Involving a Tree / Egy mese fával karöltve",
                     sourceCode: iimmgg,
-                    description: `<p>9. rész rövid leírása</p><hr><p>In which a door is encountered.</p>`
+                    description: `<p>9. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>In which a door is encountered.</p>`
                 },
                 {
                     buttonTitle: `10. rész`,
                     episodeTitle: "Of Solitude and Self / Magányról és Önvalóról",
                     sourceCode: iimmgg,
-                    description: `<p>10. rész rövid leírása</p><hr><p>In which a choice must be made.</p>`
+                    description: `<p>10. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank">Santii</a><br>In which a choice must be made.</p>`
                 },
                 {
                     buttonTitle: `Bónusz`,

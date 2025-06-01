@@ -7,6 +7,7 @@
     --k0: rgba(0,60,60,0.3);/*sötz-atl*/
     --k2: rgba(14,40,40,1);/*sötz*/
     --sl: rgb(87, 31, 105);
+    --bs_kek: #0d6efd;
 }
 /*Mindenhol -> Alap*/
 *{
@@ -67,6 +68,17 @@ footer {
 }
 .navbar-brand:hover {
     text-decoration: none !important;
+}
+
+/*Mindelhol -> Linkek*/
+a.linkek {
+    transition: ease-in-out .2s;
+    color: var(--bs_kek);
+}
+a.linkek:hover {
+    transition: ease-in-out .2s;
+    /*transform: scale(1.05);*/
+    color: gold;
 }
 
 /*Mindenhol -> Lapok*/
@@ -208,9 +220,4 @@ table.updates td:first-child{
 }
 table.updates td:last-child{
     text-align: right;
-}
-
-/*Infó -> elérhetőségek*/
-.elerhetoseg:hover {
-    text-shadow: 1px 1px 0.5px rgb(255, 255, 255);
 }

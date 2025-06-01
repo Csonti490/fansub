@@ -168,7 +168,16 @@ footer {
     display: block;
     width: 100%;
 }
+/*Videók -> Infók*/
+#sorikep {
+    
+}
+#soriinfo {
+   
+}
 
+
+/*Videók -> Epizódlista*/
 ul#episodes {
     list-style-type: none;
 }

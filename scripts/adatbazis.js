@@ -895,19 +895,19 @@ var videoSources = {
             projectTitle: "Igazság Ligája x RWBY: Szuperhősök és Vadászok",
             title: "Szinopszis",
             projectImage: `img/projects/rwby_x_jl.jpg`,
-            projectSynopsis: `<p class="m-0">Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak Remnant nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben Remnant hősei - Ruby, Weiss, Blake és Yang - rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja Remnant világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?</p>`,
+            projectSynopsis: `<p class="m-0">RWBY és az Igazság Ligája összefognak és együtt szállnak szembe a gonosszal.</p>`,
             episodes: [
             {
                 buttonTitle: `Part I`,
                 episodeTitle: "Part I",
                 sourceCode: iimmgg,
-                description: `<p>Film rövid leírása</p><hr><p>-Nincsen elérhető leírás-<br>Debütálás: 2023.04.25.</p>`
+                description: `<p>Film rövid leírása</p><hr><p>Az Igazság Ligája új horrorral néz szembe: a serdülőkorral! Superman, Batman, Csodanő, Flash, Cyborg, Zöld Lámpás és Vixen meglepődve tapasztalják, hogy nemcsak Remnant nevű furcsa világban kerültek bele, hanem még tinédzserekké is változtak. Eközben Remnant hősei - Ruby, Weiss, Blake és Yang - rájönnek, hogy világuk rejtélyes módon megváltozott. Vajon az Igazság Ligája és a RWBY csapat egyesített ereje visszaállíthatja Remnant világát a normális kerékvágásba, mielőtt egy szupererős Grimm elpusztítana mindent, amit ismernek?</p>`
             },
             {
                 buttonTitle: `Part II`,
                 episodeTitle: "Part II",
                 sourceCode: iimmgg,
-                description: `<p>Film rövid leírása</p><hr><p>-Nincsen elérhető leírás-<br>Debütálás: 2023.10.17.</p>`
+                description: `<p>Film rövid leírása</p><hr><p>On the heels of successfully escaping a deadly digital trap, the Justice League emerges in their own world to discover that Grimm, ravenous creatures from Remnant, have overtaken their world! In order to defeat the monsters, they must call on their new friends for help -- Team RWBY!</p>`
             }
             ]
         },

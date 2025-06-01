@@ -1289,7 +1289,7 @@ var videoSources = {
             projectTitle: "Dust Queen",
             title: "Sorozat Szinopszis",
             projectImage: `img/projects/rwby_dq.jpg`,
-            projectSynopsis: `<p class="m-0">Join the cast of RWBY in a new series of cute, comedy shorts with infinite possibilities! It's playing tag! It's baking cookies! It's posing as police officers! It's... really quite absurd. It's RWBY CHIBI!</p>`,
+            projectSynopsis: `<p class="m-0"></p>`,
             episodes: [
                 {
                     buttonTitle: 'Teaser',
@@ -1301,8 +1301,14 @@ var videoSources = {
                     buttonTitle: 'Trailer',
                     episodeTitle: "Dust Queen Trailer",
                     sourceCode: iimmgg,
-                    description: `<p>Rövid leírás</p><p>Ruby (Tina Mickel), Weiss (Abby Brenner), Blake (Ari Thrash) and Yang (ZippyDoesVoices) approach the end of their second year of Beacon, an academy that trains the world's strongest fighters. However, things go astray on one of their final missions together, and the world as they know it changes forever…</p>`
+                    description: `<p>Rövid leírás</p><p>Ruby (Tina Mickel), Weiss (Abby Brenner), Blake (Ari Thrash) and Yang (ZippyDoesVoices) approach the end of their second year of Beacon, an academy that trains the world's strongest fighters. However, things go astray on one of their final missions together, and the world as they know it changes forever…</p><hr><p>Grimm Tidings</p><p>We're a small, independent animation studio, and we're all about creating anime-style animations using Blender.Our team works on a volunteer basis, so everything we ever make goes straight back into the growth of indie 3D animation.</p>`
                 },
+                /*{
+                    buttonTitle: '1. rész',
+                    episodeTitle: "Chapter 1 - Growing Pains",
+                    sourceCode: iimmgg,
+                    description: `<p>1.rész leírás</p><p>Ruby, Weiss, Blake and Yang approach the end of their second year of Beacon, an academy that trains the world's strongest fighters. However, things go astray on one of their final missions together, and the world as they know it changes forever…</p>`
+                },*/
             ]
         },
         {
@@ -1417,8 +1423,8 @@ function EpisodeChange(n) {
         document.getElementById("videoDiv").classList.remove("d-none");
         document.getElementById("vid").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].sourceCode}`;
         document.getElementById("descriptionDiv").classList.remove("d-none");
-        document.getElementById("episodeDescription").innerHTML = `<button class="gomb d-block mx-auto my-3 p-1" id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;
-        document.getElementById("episodeDescription").innerHTML += `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].description}`;
+        /*document.getElementById("episodeDescription").innerHTML = `<button class="gomb d-block mx-auto my-3 p-1" id="bttn1" onclick="Vissza()">Vissza a Szinopszishoz</button>`;*/
+        document.getElementById("episodeDescription").innerHTML = `${videoSources.series[(+localStorage.getItem('result')) - 1].episodes[episode - 1].description}`;
     } else console.log("INVALID URL")
 }
 

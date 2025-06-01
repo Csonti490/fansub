@@ -1201,25 +1201,25 @@ var videoSources = {
                     buttonTitle: `1. rész`,
                     episodeTitle: "Jr. Detectives",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/jttVSbAS#hsmif97H_bn3qDLQuf3eezQGVSqP3YTGlEpN1QMtLK0" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>1. rész rövid leírása</p><hr><p>Leírás</p>`
+                    description: `<p>1. rész rövid leírása</p><hr><p>"The Junior Detectives take on their toughest case yet..."</p>`
                 },
                 {
                     buttonTitle: `2. rész`,
                     episodeTitle: "A Knight's Journal",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/H1VgTD7S#-pB13Tlhowr_jcADsWUaOkkyUkImNQE1S0FSWAeFA38" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>2. rész rövid leírása</p><hr><p>Leírás</p>`
+                    description: `<p>2. rész rövid leírása</p><hr><p>"Jaune tries to develop a new perspective." Jaune feels out place. He had an entire life in the Ever After as the Rusted Knight, but now he has his youth back. He consults Oscar, whom has similar dysphoria as Ozpin's vessel.</p>`
                 },
                 {
                     buttonTitle: `3. rész`,
                     episodeTitle: "The Adventures of Somewhat",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/y9cD2brL#c4e72pSWvF9U-jE2WD1Z-oSsaVBKQnSARWyJO6DPxYQ" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>3. rész rövid leírása</p><hr><p>Leírás</p>`
+                    description: `<p>3. rész rövid leírása</p><hr><p>"Somewhat is given an important new purpose." Somewhat is charged with their new life to find Afterans whom need to undergo Ascension; replacing the Curious Car. Their journey takes them to the recent places Team RWBY visited.</p>`
                 },
                 {
                     buttonTitle: `4. rész`,
                     episodeTitle: "Boba",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/a9cThbBR#v4irs-FgC_Lm6Clx5rMSB36ZIOW3N-ox5bK_fJU-S7U" allowfullscreen id="vid"></iframe>`,
-                    description: `<p>4. rész rövid leírása</p><hr><p>Leírás</p>`
+                    description: `<p>4. rész rövid leírása</p><hr><p>"Yang plans a surprise outing for Ruby." Yang and Ruby enjoy a tasty childhood favorite drink. The sisters need a heart to heart.</p>`
                 }
             ]
         },
@@ -1315,7 +1315,7 @@ var videoSources = {
             projectTitle: "Nincs elérhető információ",
             title: "",
             projectImage: `img/confused.png`,
-            projectSynopsis: `<p class="m-0 text-center">-=- ??? -=-</p>`,
+            projectSynopsis: `<h5 class="m-0 text-center">-=- ??? -=-</h5>`,
             episodes: [
             ]
         },

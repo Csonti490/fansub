@@ -1289,7 +1289,7 @@ var videoSources = {
             projectTitle: "Dust Queen",
             title: "Sorozat Szinopszis",
             projectImage: `img/projects/rwby_dq.jpg`,
-            projectSynopsis: `<p class="m-0"></p>`,
+            projectSynopsis: `<p class="m-0">Grimm Tidings</p><p>We're a small, independent animation studio, and we're all about creating anime-style animations using Blender. Our team works on a volunteer basis, so everything we ever make goes straight back into the growth of indie 3D animation.</p>`,
             episodes: [
                 {
                     buttonTitle: 'Teaser',
@@ -1301,7 +1301,7 @@ var videoSources = {
                     buttonTitle: 'Trailer',
                     episodeTitle: "Dust Queen Trailer",
                     sourceCode: iimmgg,
-                    description: `<p>Rövid leírás</p><hr><p>Ruby (Tina Mickel), Weiss (Abby Brenner), Blake (Ari Thrash) and Yang (ZippyDoesVoices) approach the end of their second year of Beacon, an academy that trains the world's strongest fighters. However, things go astray on one of their final missions together, and the world as they know it changes forever…</p><hr><p>Grimm Tidings</p><p>We're a small, independent animation studio, and we're all about creating anime-style animations using Blender.Our team works on a volunteer basis, so everything we ever make goes straight back into the growth of indie 3D animation.</p>`
+                    description: `<p>Rövid leírás</p><hr><p>Ruby (Tina Mickel), Weiss (Abby Brenner), Blake (Ari Thrash) and Yang (ZippyDoesVoices) approach the end of their second year of Beacon, an academy that trains the world's strongest fighters. However, things go astray on one of their final missions together, and the world as they know it changes forever…</p>`
                 },
                 /*{
                     buttonTitle: '1. rész',

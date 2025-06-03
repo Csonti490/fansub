@@ -18,13 +18,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 1 Trailer",
-                    sourceCode: iimmgg,
+                    /**/sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/i41nTDaK#5neDirP2AOPgbsZUUqXFq3wPRXl8Z-fK0yJ0KADItfA" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>But perhaps victory is in the simpler things you have long forgotten - things that require a smaller, more honest soul.</p>`
                 },
                 {
                     buttonTitle: `Opening`,
-                    episodeTitle: "RWBY Volume 1 Opening",
-                    sourceCode: iimmgg,
+                    /**/episodeTitle: "RWBY Volume 1 Opening",
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/nxsmWCSQ#dcOXnElePMiwCgYVIEQoM_Pt29AnSSSZpVzYKnAAZXo" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>Welcome to the world of Remnant! Please enjoy the original opening animation of RWBY Volume 1, now "clean," without the credit text overlays.<br>RWBY is an animated series from Rooster Teeth, directed by Monty Oum. The story focuses on a group of four girls in their first year at a legendary academy where they will learn to fight monsters.</p>`
                 },
                 {
@@ -134,13 +134,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 2 Trailer",
-                    sourceCode: iimmgg,
+                    /**/sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/nxsmWCSQ#dcOXnElePMiwCgYVIEQoM_Pt29AnSSSZpVzYKnAAZXo" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
                     buttonTitle: `Opening`,
                     episodeTitle: "RWBY Volume 2 Opening",
-                    sourceCode: iimmgg,
+                    /**/sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/WlsxiCIb#GCfpSfRLXzaHaw1VbME9Opg7auAUKbs4hsA9ci-2AP4" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -226,13 +226,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 3 Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/a1dBmTJb#0VRzYeq7ueUO_5V6WuJ13axZZi8Ust4NUnvXsZCN_nE" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
                     buttonTitle: `Opening`,
                     episodeTitle: "RWBY Volume 3 Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/q8syzbaI#VjCfDsTUjc8wEl5pwziBDX6aKZ76WxmXpyK6BPnnTj4" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -318,13 +318,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 4 Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/C9kl2AhS#WPy-MysI8SMuSPip85mx6h0fzIvPk5-tp7IpJ5yghzk" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???<br>Fanmade source: <a href="https://www.youtube.com/@bokorember1362" target="_blank" class="linkek">Bokor Ember</a></p>`
                 },
                 {
                     buttonTitle: `Opening`,
                     episodeTitle: "RWBY Volume 4 Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/r0NjFZCL#ZEEV57F2Fy8H9Opa44JcZ8xHeyY8y79jZvZDgVAov_s" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -410,13 +410,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 5 Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/q1E1jSZJ#K41wu75VIK2PdiLeKOYfT1Qag3K6rVwNby0W2h16tA0" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
                     buttonTitle: `Opening`,
                     episodeTitle: "RWBY Volume 5 Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/6xdhnQTa#3pRYIBHJDRGmnIgzrvN0vJWJ1hbH6vJ1v5G_uNPhYKU" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -514,13 +514,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 6 Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/ep1BDBbR#rUW1-uZsWdJHMCryJ0Ejz6T7y_1nXWvduz1A3J4ocFk" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
                     buttonTitle: `Opening`,
                     episodeTitle: "RWBY Volume 6 Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/mxtWDSqJ#aOenQJ9yXRX9skFM8y7dSQqvAEPKBAkkRG9g3m5pVk4" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -612,13 +612,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 7 Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/Lx8gQIpZ#ZnDJN-3Z-ps29kNZ2vpPO_ZFpNNX5VsMii7itU_J3Dg" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
                     buttonTitle: `Opening`,
                     episodeTitle: "RWBY Volume 7 Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/SwVGzSJB#lKxt3yfLIPWOVnn4QezC-az6Bn6Plg6xYqJD4ktT04k" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -710,13 +710,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 8 Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/PwcghLBa#FRq1uSp0giUwcuhB_AI-Mi_bOWSyM3G83nsIEH9DBVk" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
                     buttonTitle: `Opening`,
                     episodeTitle: "RWBY Volume 8 Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/i4MzlKDY#bCRVAtSQ3XPBO-BQdMPYc4r7XdQMUUqDPRoyriZ2ZXg" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -814,13 +814,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 9 Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/WgtxCYKA#mDmI4MWjNDPqxFMHAjHTEMP7lP7sokHP5kKPg1x8gC0" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
                     buttonTitle: `Opening`,
                     episodeTitle: "RWBY Volume 9 Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/O1dwkZAL#KuR4sg_GvbPD_9-Gdnj8cHacMlwnHkpA55VgW_d1gHI" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -886,7 +886,7 @@ var videoSources = {
                 {
                     buttonTitle: `Bónusz`,
                     episodeTitle: "RWBY Volume 9 Bonus Ending",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/vo0RjK5T#xFx-W27kYzz2xmH2kp-IW4apcuHxKpzAr2_OnnxnpEo" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
             ]
@@ -1094,7 +1094,7 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY: Fairy Tales Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/j8dE2CZQ#ICmOUGqgDUKxHxdl-6ldMzEhE_EOK7hYIAYvr2N7NYI" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -1144,7 +1144,7 @@ var videoSources = {
                 {
                     buttonTitle: 'Opening',
                     episodeTitle: "RWBY Chibi Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/ng0llapA#dSqIgemNv-hWSTF2MdOgkCh65MiHmhr2KXzXYnIQ4tU" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>A spinoff of the popular rooster teeth show RWBY. This show is small clips of the cast of RWBY in their spare time.</p>`
                 },
             ]
@@ -1158,7 +1158,7 @@ var videoSources = {
                 {
                     buttonTitle: 'Opening',
                     episodeTitle: "RWBY Chibi Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/ng0llapA#dSqIgemNv-hWSTF2MdOgkCh65MiHmhr2KXzXYnIQ4tU" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>A spinoff of the popular rooster teeth show RWBY. This show is small clips of the cast of RWBY in their spare time.</p>`
                 },
             ]
@@ -1172,7 +1172,7 @@ var videoSources = {
                 {
                     buttonTitle: 'Opening',
                     episodeTitle: "RWBY Chibi Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/ng0llapA#dSqIgemNv-hWSTF2MdOgkCh65MiHmhr2KXzXYnIQ4tU" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>A spinoff of the popular rooster teeth show RWBY. This show is small clips of the cast of RWBY in their spare time.</p>`
                 },
             ]
@@ -1186,7 +1186,7 @@ var videoSources = {
                 {
                     buttonTitle: 'Opening',
                     episodeTitle: "RWBY Chibi Opening",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/ng0llapA#dSqIgemNv-hWSTF2MdOgkCh65MiHmhr2KXzXYnIQ4tU" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>A spinoff of the popular rooster teeth show RWBY. This show is small clips of the cast of RWBY in their spare time.</p>`
                 },
             ]
@@ -1227,12 +1227,12 @@ var videoSources = {
             projectTitle: "RWBY Evermorrow",
             title: "Sorozat Szinopszis",
             projectImage: `img/projects/rwby_evermorrow.jpg`,
-            projectSynopsis: `<p class="m-0">??</p>`,
+            projectSynopsis: `<p class="m-0">???</p>`,
             episodes: [
                 {
                     buttonTitle: `Intro`,
                     episodeTitle: "RWBY Evermorrow AU Intro",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/at932SpJ#xKGv7GsmM9aMRUNXYOfCHdiDtBF9yVWVFztKQbYd6rY" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -1294,13 +1294,13 @@ var videoSources = {
                 {
                     buttonTitle: 'Teaser',
                     episodeTitle: "Dust Queen Teaser",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/nkMRDSba#3IqKHAifTX6zKqRijBYvVkY1CntYXELR6AUqDgNlFRw" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>Ruby (Tina Mickel), Weiss (Abby Brenner), Blake (Ari Thrash) and Yang (ZippyDoesVoices) approach the end of their second year of Beacon, an academy that trains the world's strongest fighters. However, things go astray on one of their final missions together, and the world as they know it changes forever…</p>`
                 },
                 {
                     buttonTitle: 'Trailer',
                     episodeTitle: "Dust Queen Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe width="640" height="360" frameborder="0" src="https://mega.nz/embed/j0FFRQbA#seQ05Yyxof6GjnCKbI6PHEsaWitJ3cw3NVaOpxiqE8s" allowfullscreen ></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>Ruby (Tina Mickel), Weiss (Abby Brenner), Blake (Ari Thrash) and Yang (ZippyDoesVoices) approach the end of their second year of Beacon, an academy that trains the world's strongest fighters. However, things go astray on one of their final missions together, and the world as they know it changes forever…</p>`
                 },
                 /*{
@@ -1408,7 +1408,7 @@ function ProjectChange(n) {
             localStorage.setItem('result', 20); // RWBY Evermorrow
             break;
         case 21:
-            localStorage.setItem('result', 21); // RWBY Evermorrow
+            localStorage.setItem('result', 21); // Dust Queen
             break;
         default:
             localStorage.setItem('result', 22); // Default

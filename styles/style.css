@@ -169,7 +169,6 @@ a.linkek:hover {
     position: relative;
 }
 .pleiras h6 {
-    /*font-size: clamp(80%, 75%, 100%);*/
     font-size: clamp(8px, 3vw, 100%);
 }
 .pcim h5 {

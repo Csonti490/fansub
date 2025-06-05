@@ -12,8 +12,8 @@ var Projects = [
     }
 ]
 
-var hely = document.getElementById("stts");
-if(hely){
+var stts = document.getElementById("stts");
+if(stts){
     let adat = `<tr>
                                 <th>Sorozat</th>
                                 <th>Epizód</th>
@@ -26,6 +26,37 @@ if(hely){
                                 <td class="text-center">${Projects[i].status}</td>
                             </tr>`;
     }
-    hely.innerHTML = adat;
+    stts.innerHTML = adat;
 }
+
+var Updates = [
+    {
+        title: "Új kinézet",
+        status: "95%"
+    },
+    {
+        title: "Leírások frissítése",
+        status: "30%"
+    },
+    {
+        title: "Sorozat előzetesek",
+        status: "60%"
+    }
+]
+
+var pdts = document.getElementById("pdts");
+if(pdts){
+    let adat = `<tr>
+                                <th>Funkciók</th>
+                                <th>Állapot</th>
+                            </tr>`;
+    for(let i = 0; i < Updates.length; i++){
+        adat += `                            <tr>
+                                <td>${Updates[i].title}</td>
+                                <td>${Updates[i].status}</td>
+                            </tr>`;
+    }
+    pdts.innerHTML = adat;
+}
+
 /* =-= =-= =-= =-= =-= */

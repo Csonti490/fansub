@@ -39,6 +39,10 @@ nav a.navbar-brand:hover, nav li.nav-item a:hover {
     transform: scale(1.05);
     color: var(--vilkek) !important;
 }
+nav li.nav-item a{
+    border: 1px dashed rgba(255, 255, 255, 0);
+    border-width: 1px 0 1px 0;
+}
 nav li.nav-item a:hover{
     border: 1px dashed var(--vilkek);
     border-width: 1px 0 1px 0;
@@ -164,8 +168,12 @@ a.linkek:hover {
     text-align: center;
     position: relative;
 }
-/*.pcim h5,*/ .pleiras h6 {
-    font-size: clamp(90%, 75%, 100%);
+.pleiras h6 {
+    /*font-size: clamp(80%, 75%, 100%);*/
+    font-size: clamp(8px, 3vw, 100%);
+}
+.pcim h5 {
+    font-size: clamp(16px, 6vw, 125%);
 }
 
 /*Videók -> Videó, Epizódlista*/

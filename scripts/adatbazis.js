@@ -18,12 +18,12 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 1 Trailer",
-                    /**/sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/i41nTDaK#5neDirP2AOPgbsZUUqXFq3wPRXl8Z-fK0yJ0KADItfA" allowfullscreen id="vid"></iframe>`,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/i41nTDaK#5neDirP2AOPgbsZUUqXFq3wPRXl8Z-fK0yJ0KADItfA" allowfullscreen id="vid"></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>But perhaps victory is in the simpler things you have long forgotten - things that require a smaller, more honest soul.</p>`
                 },
                 {
                     buttonTitle: `Opening`,
-                    /**/episodeTitle: "RWBY Volume 1 Opening",
+                    episodeTitle: "RWBY Volume 1 Opening",
                     sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/nxsmWCSQ#dcOXnElePMiwCgYVIEQoM_Pt29AnSSSZpVzYKnAAZXo" allowfullscreen id="vid"></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>Welcome to the world of Remnant! Please enjoy the original opening animation of RWBY Volume 1, now "clean," without the credit text overlays.<br>RWBY is an animated series from Rooster Teeth, directed by Monty Oum. The story focuses on a group of four girls in their first year at a legendary academy where they will learn to fight monsters.</p>`
                 },
@@ -134,13 +134,13 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 2 Trailer",
-                    /**/sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/nxsmWCSQ#dcOXnElePMiwCgYVIEQoM_Pt29AnSSSZpVzYKnAAZXo" allowfullscreen id="vid"></iframe>`,
+                    sourceCode: iimmgg,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
                     buttonTitle: `Opening`,
                     episodeTitle: "RWBY Volume 2 Opening",
-                    /**/sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/WlsxiCIb#GCfpSfRLXzaHaw1VbME9Opg7auAUKbs4hsA9ci-2AP4" allowfullscreen id="vid"></iframe>`,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/WlsxiCIb#GCfpSfRLXzaHaw1VbME9Opg7auAUKbs4hsA9ci-2AP4" allowfullscreen id="vid"></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -220,7 +220,7 @@ var videoSources = {
         {
             projectTitle: "RWBY: 3.fejezet",
             title: "Sorozat Szinopszis",
-            projectImage: `img/projects/rwby_v3.jpg`,
+            projectImage: `img/projects/rwby_v3.webp`,
             projectSynopsis: `<p class="m-0">A Vytal Festival Tournament az ügyesség végső csatája, amely a világ legerősebb vadászait és vadásznőit állítja szembe egymással edzés közben... és végre itt van! Ruby, Weiss, Blake és Yang visszatért egy szezonra, ahol a legkiválóbb akciókat töltik, és nincsenek egyedül. Új harcosok Remnant minden környékéről készen állnak arra, hogy dicsőséget hozzanak Királyságuknak, de vannak köztük olyanok is, akik sokkal baljósabb célt tűztek ki maguk elé.</p><hr><p class="m-0">A részeket <a href="https://indavideo.hu/profile/bluedog327" title="bluedog327 csatija (Indavideó)" target="_blank" class="linkek">bluedog327</a> fordította.</p>`,
             episodes: [
                 {

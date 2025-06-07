@@ -134,7 +134,7 @@ var videoSources = {
                 {
                     buttonTitle: `Trailer`,
                     episodeTitle: "RWBY Volume 2 Trailer",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/GkFkQAjJ#3qzhaxOdda-LGjgA3kb8wuiEe1jdNLfvAZrxbPWBIO4" allowfullscreen id="vid"></iframe>`,
                     description: `<p>Rövid leírás</p><hr><p>???</p>`
                 },
                 {
@@ -826,61 +826,61 @@ var videoSources = {
                 {
                     buttonTitle: `1. rész`,
                     episodeTitle: "A Place of Particular Concern / A Különös Aggodalmas Hely",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/y99zlToR#YJOjjUdQSsuACImSyu_KCvK3aCyrarvUZliA7FbKtz4" allowfullscreen id="vid"></iframe>`,
                     description: `<p>1. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>A RWBY csapat egy hatalmas szigetre mosódik ismeretlen helyen, Jaune-nal és Neó-val. Miközben barátaik, valamint Atlas és Mantle lakói átutazzák Vacuo-t.</p>`
                 },
                 {
                     buttonTitle: `2. rész`,
                     episodeTitle: "Altercation at the Auspicious Auction / Változás a Kedvező Árverésen",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/P5EkgAJa#-YaiCJmsqUoS123JwYJPVhqly4Axibq-nEaj2ZE5ioo" allowfullscreen id="vid"></iframe>`,
                     description: `<p>2. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>Amelyben az RWBY csapat többet kapnak, mint amennyiért cserélték.</p>`
                 },
                 {
                     buttonTitle: `3. rész`,
                     episodeTitle: "Rude, Red, and Royal / Goromba, Vörös, és Királyi",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/rkNWzIrL#f3GBRVcZyvFu0qpCjqnJ-zdzaa-Y6-gpCbK-jy-pRwI" allowfullscreen id="vid"></iframe>`,
                     description: `<p>3. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>Amelyben megszegik a játékszabályokat.</p>`
                 },
                 {
                     buttonTitle: `4. rész`,
                     episodeTitle: "A Cat Most Curious / A Legkíváncsibb Macska",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/mk1CVbLT#vnaSNPUR17nLePzDw4EdJBWMX0M6V3Mp80gal_podGQ" allowfullscreen id="vid"></iframe>`,
                     description: `<p>4. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>Amelyben új ismeretségek születnek.</p>`
                 },
                 {
                     buttonTitle: `5. rész`,
                     episodeTitle: "The Parfait Predicament / A tökéletesen kínos helyzet",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/L0MUzKKR#uvuTcaXgg74RzPgxkcW9YQCHAQ8s8_4byvtabado0oI" allowfullscreen id="vid"></iframe>`,
                     description: `<p>5. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>Amelyben egy desszert van összeállítva.</p>`
                 },
                 {
                     buttonTitle: `6. rész`,
                     episodeTitle: "Confessions Within Cumulonimbus Clouds / Vallomások a gomolyfelhőkben",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/WstxlJLC#YBM4qWBk_Z12J2-7yrtKuMnoXC2AvcUm26yhdhYTIAo" allowfullscreen id="vid"></iframe>`,
                     description: `<p>6. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>Amelyben a régi barátok újraegyesülnek.</p>`
                 },
                 {
                     buttonTitle: `7. rész`,
                     episodeTitle: "The Perils of Paper Houses / A Papírházak Veszedelmei",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/f0ETQQiD#eC22qHsPmQzlbz3y6gbLlm9pjaMgxVjl6z3wDKUQX3Q" allowfullscreen id="vid"></iframe>`,
                     description: `<p>7. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>Amelyben tervek és menetrendek készülnek.</p>`
                 },
                 {
                     buttonTitle: `8. rész`,
                     episodeTitle: "Tea Amidst Terrible Trouble / Tea Szörnyű Bajok Közepette",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/2xdBELxA#PSWFdxJ1QCZDPzyVTtbPlK7HdWepjdBxikg5qspSirY" allowfullscreen id="vid"></iframe>`,
                     description: `<p>8. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>Amiben egy kis tea kiömlött.</p>`
                 },
                 {
                     buttonTitle: `9. rész`,
                     episodeTitle: "A Tale Involving a Tree / Egy mese fával karöltve",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/TkNmnLbT#oZU8d-LSeiMLguXjhJ67NCltwk7tJGaAKCoDiR_iymM" allowfullscreen id="vid"></iframe>`,
                     description: `<p>9. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>In which a door is encountered.</p>`
                 },
                 {
                     buttonTitle: `10. rész`,
                     episodeTitle: "Of Solitude and Self / Magányról és Önvalóról",
-                    sourceCode: iimmgg,
+                    sourceCode: `<iframe class="w-75 d-block mx-auto" style="aspect-ratio: 16/9;" frameborder="0" src="https://mega.nz/embed/zpUAXJjT#H5VLlnd14TxfL5rNlGYP241kCKrG2tEj7eLynRhv8vE" allowfullscreen id="vid"></iframe>`,
                     description: `<p>10. rész rövid leírása</p><hr><p><p>A feliratot készítette: <a href="https://indavideo.hu/profile/Santii" title="Santii csatija (Indavideó)" target="_blank" class="linkek">Santii</a><br>In which a choice must be made.</p>`
                 },
                 {

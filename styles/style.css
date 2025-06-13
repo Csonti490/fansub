@@ -184,8 +184,10 @@ a.linkek:hover {
 
 #video > #vid {
     object-fit: cover;
-    display: block;
-    width: 100%;
+    /*display: block;
+    width: 100%;*/
+    aspect-ratio: 16/9;
+    border: none;
 }
 
 /*Videók -> Epizódlista*/
